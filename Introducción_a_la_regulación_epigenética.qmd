@@ -1,0 +1,310 @@
+---
+title: "Introducción a la regulación epigenética"
+subtitle: "Basado en: Paro, P. D. R., Grossniklaus, P. D. U., Santoro, D. R., & Wutz, P. D. A. (2021). Biology of Chromatin. En Introduction to Epigenetics [Internet]. Springer. https://doi.org/10.1007/978-3-030-68670-3_1
+"
+author: "Sergio Melgar"
+lang: es-MX
+format: 
+  revealjs:
+    scrollable: true
+    plugins: [notes, chalkboard]
+    chalkboard:
+       src: chalkboard.json
+---
+
+## Introducción a la Regulación Epigenética
+
+-   Todos los organismos heredan rasgos codificados en el ADN.
+
+-   La expresión génica es una función clave del genoma.
+
+-   Otras funciones son la replicación y la herencia.
+
+[![Mecanismos epigenéticos.](https://upload.wikimedia.org/wikipedia/commons/7/77/Epigenetic_mechanisms-es.png){width="500"}](https://commons.wikimedia.org/wiki/File:Epigenetic_mechanisms-es.png)
+
+## Organización del genoma
+
+-   El genoma se organiza en una fibra de cromatina con ADN.
+
+-   En microscopio electrónico, la cromatina contiene partículas esféricas denominadas nucleosomas.
+
+[![Micrografía electrónica de la cromatina.](https://upload.wikimedia.org/wikipedia/commons/9/96/ORNL_History_%2844670612800%29.jpg)](https://commons.wikimedia.org/wiki/File:ORNL_History_(44670612800).jpg)
+
+[![La cromatina tiene ADN y proteínas.](https://upload.wikimedia.org/wikipedia/commons/b/b3/Chromatin_and_histones.jpg)](https://commons.wikimedia.org/wiki/File:Chromatin_and_histones.jpg)
+
+## Regulación de la expresión génica
+
+-   La cromatina apoya la transducción de información epigenética en procesos regulatorios.
+
+-   La cromatina es dinámica.
+
+-   Modificaciones de histonas y la accesibilidad del ADN contribuyen a la regulación epigenética.
+
+[![Acetilación de histonas.](https://upload.wikimedia.org/wikipedia/commons/b/b2/Closed_and_relaxed_chromatin.jpg){width="500"}](https://commons.wikimedia.org/wiki/File:Closed_and_relaxed_chromatin.jpg)
+
+## Descubrimiento del Nucleosoma
+
+-   La microscopía electrónica reveló arreglos lineales de partículas esféricas.
+
+-   Estas partículas están espaciadas regularmente y se encuentran en muchos eucariotas.
+
+[![Cromatina.](https://upload.wikimedia.org/wikipedia/commons/b/b5/Chromatin_nucleofilaments_%28detail%29.png){width="500"}](https://commons.wikimedia.org/wiki/File:Chromatin_nucleofilaments_(detail).png)
+
+## Descubrimiento del Nucleosoma
+
+-   Los experimentos de digestión con nucleasas mostraron fragmentos de ADN a intervalos regulares de \~150 pares de bases.
+
+-   Estos hallazgos llevaron a la comprensión de la estructura nucleosómica.
+
+[![Cromatina.](https://upload.wikimedia.org/wikipedia/commons/b/b5/Chromatin_nucleofilaments_%28detail%29.png){width="500"}](https://commons.wikimedia.org/wiki/File:Chromatin_nucleofilaments_(detail).png)
+
+[![Escalera de ADN formada durante la apoptosis](https://upload.wikimedia.org/wikipedia/commons/7/75/Apoptotic_DNA_Laddering.png)](https://commons.wikimedia.org/wiki/File:Apoptotic_DNA_Laddering.png)
+
+## La Estructura del Nucleosoma
+
+-   Un nucleosoma es la unidad básica repetitiva de la cromatina.
+
+-   Consiste en 8 proteínas histonas y 146 pares de bases de ADN envuelto alrededor de ellas.
+
+-   El octámero de histonas se compone de un par de cada una de las histonas H2A, H2B, H3 y H4.
+
+[![Nucleosoma.](https://upload.wikimedia.org/wikipedia/commons/3/39/Nucleosome_structure-es.jpg){width="500"}](https://commons.wikimedia.org/wiki/File:Nucleosome_structure-es.jpg)
+
+## La Estructura del Nucleosoma
+
+-   Las histonas tienen superficies cargadas positivamente que interactúan con el ADN.
+
+-   Tienen un dominio globular con hélice alfa.
+
+-   Tienen colas N-terminales flexibles accesibles para modificaciones postraduccionales.
+
+[![Estructura del nucleosoma.](https://upload.wikimedia.org/wikipedia/commons/d/d9/Nucleosome_1KX5_colour_coded.png)](https://commons.wikimedia.org/wiki/File:Nucleosome_1KX5_colour_coded.png)
+
+[![Nucleosoma modificado para activación.](https://upload.wikimedia.org/wikipedia/commons/f/fc/Histone_tails_set_for_transcriptional_activation.jpg){width="500"}](https://commons.wikimedia.org/wiki/File:Histone_tails_set_for_transcriptional_activation.jpg)
+
+## Variantes de Histonas
+
+::::: columns
+::: {.column width="50%"}
+-   La composición de las histonas puede variar, introduciendo diferentes funcionalidades.
+-   Las variantes de las histonas H3 y H2A son comunes, mientras que H2B y H4 son predominantemente invariantes.
+:::
+
+::: {.column width="50%"}
+[![Composición de los nucleosomas.](https://upload.wikimedia.org/wikipedia/commons/a/a9/Basic_units_of_chromatin_structure.svg){width="30%"}](https://commons.wikimedia.org/wiki/File:Basic_units_of_chromatin_structure.svg)
+:::
+:::::
+
+## Variantes de Histonas
+
+-   H3.1 y H3.2 se depositan durante la replicación del ADN; H3.3 está involucrada en el intercambio de histonas.
+-   CENP-A reemplaza a la histona H3 en el centrómero, contribuyendo a su rigidez y su función del cinetocoro.
+
+::: {.column width="50%"}
+[![Ensamblaje de nucleosomas.](https://upload.wikimedia.org/wikipedia/commons/c/cb/Steps_in_nucleosome_assembly.svg){width="100%"}](https://commons.wikimedia.org/wiki/File:Steps_in_nucleosome_assembly.svg)
+:::
+
+## Variantes de Histonas
+
+-   Las histonas están asociadas con chaperonas o cargadoras (loaders) cuando no están en un contexto de cromatina. Por ejemplo:
+    -   NAP-1: Proteína ensambladora del nucleosoma 1 para H2A y H2B.
+    -   CAF-1: Factor de ensamblaje de cromatina 1 para H3 y H4.
+-   La variante H2A.z está restringida a los promotores de genes activos.
+
+::: {.column width="50%"}
+[![Ensamblaje de nucleosomas.](https://upload.wikimedia.org/wikipedia/commons/c/cb/Steps_in_nucleosome_assembly.svg){alt="Ensamblaje de nucleosomas." width="100%"}](https://commons.wikimedia.org/wiki/File:Steps_in_nucleosome_assembly.svg)
+:::
+
+## Modificaciones de Histonas
+
+-   Las modificaciones postraduccionales de las histonas y las modificaciones de las bases de ADN permiten la regulación epigenética.
+-   Las enzimas que catalizan las modificaciones de las histonas se llaman escritores.
+
+[![Modificaciones de las histonas.](https://upload.wikimedia.org/wikipedia/commons/b/b1/Histone_modifications.png){width="100%"}](https://commons.wikimedia.org/wiki/File:Histone_modifications.png)
+
+## Modificaciones de Histonas
+
+-   Los borradores eliminan estas modificaciones, y los lectores son proteínas que se unen a estas modificaciones y dirigen funciones específicas.
+-   Las modificaciones de las histonas pueden detectarse mediante anticuerpos utilizando métodos bioquímicos o técnicas de tinción.
+
+[![Modificaciones de las histonas.](https://upload.wikimedia.org/wikipedia/commons/b/b1/Histone_modifications.png){width="100%"}](https://commons.wikimedia.org/wiki/File:Histone_modifications.png)
+
+## Modificaciones de Histonas
+
+-   Las técnicas de microscopía y las sondas fluorescentes pueden usarse para analizar los estados de modificación y el contexto genómico.
+
+[![Cromatina teñida de rojo por anticuerpos de proteína 1a (heterocromatina) y en verde anticuerpos de contra H2Ax (eucromatina).](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/The_twin_brothers.tif/lossy-page1-649px-The_twin_brothers.tif.jpg)](https://commons.wikimedia.org/wiki/File:The_twin_brothers.tif)
+
+[![Modificaciones de las histonas.](https://upload.wikimedia.org/wikipedia/commons/a/ac/Relative_TERRA_Expression_by_Heterochromatic_State.jpg){width="100%"}](https://commons.wikimedia.org/wiki/File:Relative_TERRA_Expression_by_Heterochromatic_State.jpg)
+
+## Nomenclatura de las modificaciones de las histonas
+
+H3K27me2:
+
+-   Modificación de H3
+
+-   K: lisina
+
+-   27: posición de la lisina
+
+-   me2: dimetilación en la posición de la lisina.
+
+[![Marcas en cromatinas durante especialización de líneas celulares.](https://upload.wikimedia.org/wikipedia/commons/5/57/Representation_of_chromatin_marks_in_critical_genes_during_specification.jpg)](https://commons.wikimedia.org/wiki/File:Representation_of_chromatin_marks_in_critical_genes_during_specification.jpg)
+
+![Modificaciones de las histonas.](https://upload.wikimedia.org/wikipedia/commons/b/b1/Histone_modifications.png){width="100%"}
+
+## Modificaciones Combinatorias en la Heterocromatina Pericéntrica
+
+-   H3K9me3 es establecida por metiltransferasas de histonas como Suv3-9h1 y Suv3-9h2.
+-   HP1 (proteína de heterocromatina 1) se une a H3K9me3 y es reclutada hacia la heterocromatina pericéntrica.
+
+[![Células madre embrionarias no diferenciadas (izquierda), y células progenitoras neuronales (derecha). anticuerpos anti-HP1(verdes) para heterocromatina, anticuerpos anti-H3K9me3 (rojo) and DAPI (azul).](https://upload.wikimedia.org/wikipedia/commons/2/29/Heterochromatin_structure_in_ES_cells..jpg){fig-alt="https://www.stembook.org/articles/imaging-chromatin-in-embryonic-stem-cells/"}](https://commons.wikimedia.org/wiki/File:Heterochromatin_structure_in_ES_cells..jpg)
+
+[![Centrómeros de una célula de ajo (rojo) teñidos con anticuerpo contra la histona centromérica H3 (CENH3).](https://upload.wikimedia.org/wikipedia/commons/0/08/Karyotype_of_garlic_%28Allium_sativum%29.png){width="500"}](https://commons.wikimedia.org/wiki/File:Karyotype_of_garlic_(Allium_sativum).png)
+
+## Identificación en alta resolución de las modificaciones de las histonas
+
+-   La inmunoprecipitación de cromatina (ChIP) vincula histonas modificadas con secuencias de ADN.
+-   ChIP utiliza anticuerpos para enriquecer una modificación específica de histona.
+-   El ADN puede analizarse mediante varios métodos, incluyendo ChIP-seq, ChIP-array y PCR.
+-   Esto permite obtener mapas genómicos de modificaciones de histonas a resolución nucleosómica.
+
+[![Pasos básicos de la tècnica del ChIP-seq.](https://upload.wikimedia.org/wikipedia/commons/c/c3/Chip-seq.png){width="100%"}](https://commons.wikimedia.org/wiki/File:Chip-seq.png)
+
+## Identificación en alta resolución de las modificaciones de las histonas
+
+[![Pasos básicos de la tècnica del ChIP-array.](https://upload.wikimedia.org/wikipedia/commons/e/ef/ChIP_fig_4.png){width="100%"}](https://commons.wikimedia.org/wiki/File:ChIP_fig_4.png)
+
+## Escritores, Lectores y Borradores de Modificaciones de Histonas
+
+::::: columns
+::: {.column width="75%"}
+-   Histona acetiltransferasas (HATs), histona metiltransferasas (HMTs) e histona quinasas utilizan cofactores de vías metabólicas para modificar histonas.
+-   Las proteínas que contienen bromodominios se unen a lisinas acetiladas y atraen a otros reguladores.
+:::
+
+::: {.column width="25%"}
+![Bromodominio de una proteína de levadura de cerveza (GCN5)](https://upload.wikimedia.org/wikipedia/commons/4/4b/1e6i_bromodomain.png){alt="Bromodominio de una protaína de levadura de cerveza (GCN5)" width="25%"}
+:::
+:::::
+
+## Escritores, Lectores y Borradores de Modificaciones de Histonas
+
+-   La acetilación de histonas se cree que elimina cargas positivas de lisinas y reduce su afinidad al ADN.
+-   Las acetilaciones están asociadas a promotores activos.
+-   HP1 (Proteína de unión a la heterocromatina) se asocia con H3K9me3 a través de un cromodominio y es una lectora.
+
+[![Células no diferenciadas ES (ESC, izquierda) derivadas de un progenitor neuronal (NPC, derecha) teñidas con anticuerpos anti-HP1 (verde), anticuerpos anti-H3K9me3 (rojo) y DAPI (azul). En células ES, la heterocromatina aparece mayor y conmenores focos mientras que en las células progenitoras neuronales los focos son menores, más condensados y numerosos. Barra = 10 μm.](https://upload.wikimedia.org/wikipedia/commons/2/29/Heterochromatin_structure_in_ES_cells..jpg){fig-alt="https://www.stembook.org/articles/imaging-chromatin-in-embryonic-stem-cells/" width="500"}](https://commons.wikimedia.org/wiki/File:Heterochromatin_structure_in_ES_cells..jpg)
+
+## Escritores, Lectores y Borradores de Modificaciones de Histonas
+
+-   Los cromodominios reconocen resíduos de lisina metilados.
+-   La proteína Polycomb (Pc) contiene un cromodominio específico para H3K27me3 y se encargan de silenciar genesLas proteínas 14-3-3 tienen alta especificidad por la histona H3S10pK14ac doblemente modificada..
+-   La señalización celular y las modificaciones combinatorias de histonas pueden contribuir a mecanismos complejos de regulación génica.
+
+[![Metiltransferasas y demetilasas de histonas funcionan de manera antagonista.](https://upload.wikimedia.org/wikipedia/commons/f/f8/Histone_methyltransferases_and_demethylases_function_antagonistically_to_control_gene_expression_pat.jpg)](https://commons.wikimedia.org/wiki/File:Histone_methyltransferases_and_demethylases_function_antagonistically_to_control_gene_expression_pat.jpg)
+
+## Modificaciones del ADN
+
+-   Las modificaciones del ADN añaden información al genoma sin cambiar la secuencia de ADN.
+-   Las enzimas establecen y eliminan estas modificaciones dinámicamente.
+
+[![Esta imagen ilustra posibles modificaciones epigenéticas en el ADN y en las histonas, como metilación de los sitios CpG, acetilación y metilación de las colas de las histonas.](https://upload.wikimedia.org/wikipedia/commons/d/df/Epigenetics_modifications.png){width="500"}](https://commons.wikimedia.org/wiki/File:Epigenetics_modifications.png)
+
+## Modificaciones del ADN
+
+-   La metilación del ADN es un sistema más simple para la heredabilidad epigenética.
+-   5mC se encuentra preferentemente en el contexto de dinucleótidos CG en genomas de mamíferos.
+
+[![Metilación de la citosina.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/DNMT_reaction_mechanism.tif/lossless-page1-800px-DNMT_reaction_mechanism.tif.png)](https://commons.wikimedia.org/wiki/File:DNMT_reaction_mechanism.tif)
+
+![Esta imagen ilustra posibles modificaciones epigenéticas en el ADN y en las histonas, como metilación de los sitios CpG, acetilación y metilación de las colas de las histonas.](https://upload.wikimedia.org/wikipedia/commons/d/df/Epigenetics_modifications.png){width="500"}
+
+## Modificaciones del ADN
+
+-   Las enzimas DNMT (ADN metiltransferasas) de mantenimiento restauran los patrones de metilación en las cadenas de ADN recién sintetizadas.
+
+![Metilación de la citosina.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/DNMT_reaction_mechanism.tif/lossless-page1-800px-DNMT_reaction_mechanism.tif.png){alt="Metilación de la citosina."}
+
+![Esta imagen ilustra posibles modificaciones epigenéticas en el ADN y en las histonas, como metilación de los sitios CpG, acetilación y metilación de las colas de las histonas.](https://upload.wikimedia.org/wikipedia/commons/d/df/Epigenetics_modifications.png){width="500"}
+
+------------------------------------------------------------------------
+
+## Organización y Compartimentación de la Cromatina
+
+::::: columns
+::: {.column width="50%"}
+-   La cromatina mantiene una distribución relativamente estable en el núcleo.
+-   Los cromosomas ocupan volúmenes discretos llamados territorios cromosómicos (CTs).
+:::
+
+::: {.column width="50%"}
+[![Territorios cromosómicos.](https://upload.wikimedia.org/wikipedia/commons/3/39/Chromosome_territories.svg){width="100%"}](https://commons.wikimedia.org/wiki/File:Chromosome_territories.svg)
+
+[![Territorios cromosómicos en ratón, cromosoma 2 (rojo) y 9 (verde) en fondo azul.](https://upload.wikimedia.org/wikipedia/commons/f/f4/MouseChromosomeTerritoriesBMC_Cell_Biol6-44Fig2e.jpg){width="100%"}](https://commons.wikimedia.org/wiki/File:MouseChromosomeTerritoriesBMC_Cell_Biol6-44Fig2e.jpg)
+:::
+:::::
+
+## Organización y Compartimentación de la Cromatina
+
+-   La cromatina mantiene una distribución relativamente estable en el núcleo.
+-   Los cromosomas ocupan volúmenes discretos llamados territorios cromosómicos (CTs).
+
+::::: columns
+::: {.column width="50%"}
+[![Territorios cromosómicos.](https://upload.wikimedia.org/wikipedia/commons/3/39/Chromosome_territories.svg){width="100%"}](https://commons.wikimedia.org/wiki/File:Chromosome_territories.svg)
+:::
+
+::: {.column width="50%"}
+[![Territorios cromosómicos en ratón, cromosoma 2 (rojo) y 9 (verde) en fondo azul.](https://upload.wikimedia.org/wikipedia/commons/f/f4/MouseChromosomeTerritoriesBMC_Cell_Biol6-44Fig2e.jpg){width="100%"}](https://commons.wikimedia.org/wiki/File:MouseChromosomeTerritoriesBMC_Cell_Biol6-44Fig2e.jpg)
+:::
+:::::
+
+## Organización y Compartimentación de la Cromatina
+
+-   La cromatina mantiene una distribución relativamente estable en el núcleo.
+-   Los cromosomas ocupan volúmenes discretos llamados territorios cromosómicos (CTs).
+
+[![Territorios cromosómicos.](https://upload.wikimedia.org/wikipedia/commons/3/39/Chromosome_territories.svg){width="500"}](https://commons.wikimedia.org/wiki/File:Chromosome_territories.svg)
+
+[![Territorios cromosómicos en ratón, cromosoma 2 (rojo) y 9 (verde) en fondo azul.](https://upload.wikimedia.org/wikipedia/commons/f/f4/MouseChromosomeTerritoriesBMC_Cell_Biol6-44Fig2e.jpg){width="500"}](https://commons.wikimedia.org/wiki/File:MouseChromosomeTerritoriesBMC_Cell_Biol6-44Fig2e.jpg)
+
+------------------------------------------------------------------------
+
+## Organización y Compartimentación de la Cromatina
+
+-   Los nucléolos son estructuras prominentes donde se transcribe el ARN ribosómico.
+-   Los compartimentos intercromatínicos (IC) son canales dentro de la cromatina que permiten el acceso a los genes.
+
+[![Modelo de territorio cromosómico y compartimento intercromatínico (CT-IC).](https://upload.wikimedia.org/wikipedia/commons/b/b7/CT-IC-Modell-DE.svg)](https://commons.wikimedia.org/wiki/File:CT-IC-Modell-DE.svg)
+
+[![Núcleo.](https://upload.wikimedia.org/wikipedia/commons/6/6f/Diagram_human_cell_nucleus_es.svg){width="500"}](https://commons.wikimedia.org/wiki/File:Diagram_human_cell_nucleus_es.svg)
+
+------------------------------------------------------------------------
+
+## Organización y Compartimentación de la Cromatina
+
+-   La heterocromatina pericéntrica se organiza en dominios con modificaciones específicas de histonas .
+-   Los dominios de asociación topológica (TADs) son regiones de cromatina con altas frecuencias de interacción.
+    -   Los compartimentos A se correlacionan con marcas de cromatina activa y los compartimentos B con cromatina inactiva.
+
+[![Organización estructural de la cromatina. (A) Territorios cromosómicaos. (B) Dominios de asociación topolótica (TADs). (C) TAD con interacciones entre elementos regulatorios y genes.](https://upload.wikimedia.org/wikipedia/commons/b/be/Structural_organization_of_chromatin.png){width="500"}](https://commons.wikimedia.org/wiki/File:Structural_organization_of_chromatin.png)
+
+[![Procedimiento para Hi-C y detección de TADs.](https://upload.wikimedia.org/wikipedia/commons/a/a4/HiCschematic.png)](https://commons.wikimedia.org/wiki/File:HiCschematic.png)
+
+## Complejos de Mantenimiento Estructural de Cromosomas (SMC)
+
+-   Las proteínas SMC están involucradas en la condensación y segregación de los cromosomas durante la mitosis.
+-   Los complejos cohesina y condensina son dos complejos SMC distintos.
+-   Las proteínas SMC tienen dominios de cabeza ATPasa que hidrolizan ATP para ejercer función motora.
+
+[![Proteínas SMC.](https://upload.wikimedia.org/wikipedia/commons/e/eb/Models_of_SMC_and_cohesin_structure.svg){width="500"}](https://commons.wikimedia.org/wiki/File:Models_of_SMC_and_cohesin_structure.svg)
+
+------------------------------------------------------------------------
+
+## Complejos de Mantenimiento Estructural de Cromosomas (SMC)
+
+-   Las cohesinas median la cohesión de las cromátidas hermanas y también están involucradas en la regulación génica.
+-   Los sitios CTCF (Factor de unión a un sitio CCCTC) en la base de los bucles de cromatina están orientados hacia cada otro, lo que sugiere un bloqueo direccional del deslizamiento de la cohesina.
+
+[![Cohesinas durante la replicación.](https://upload.wikimedia.org/wikipedia/commons/9/98/Cohesin_during_replication.jpg){width="500"}](https://commons.wikimedia.org/wiki/File:Cohesin_during_replication.jpg)
