@@ -1,0 +1,214 @@
+---
+title: "Dinámica de la cromatina"
+subtitle: "Basado en: Paro, P. D. R., Grossniklaus, P. D. U., Santoro, D. R., & Wutz, P. D. A. (2021). Biology of Chromatin. En Introduction to Epigenetics [Internet]. Springer. https://doi.org/10.1007/978-3-030-68670-3_1
+"
+author: "Sergio Melgar"
+lang: es-MX
+format: 
+  revealjs:
+    scrollable: true
+    plugins: [notes, chalkboard]
+    chalkboard:
+       src: chalkboard.json
+---
+
+## Introducción:
+
+-   El núcleo eucariota es un lugar muy activo, donde se requiere acceso a la información genética para procesos como la transcripción y la reparación del ADN.
+
+-   La estructura nucleosómica de la cromatina es principalmente inhibidora para estos procesos.
+
+-   La cromatina debe modificarse de manera organizada para permitir actividades específicas de la célula.
+
+[![Modification de las histonas.](https://upload.wikimedia.org/wikipedia/commons/a/ac/Relative_TERRA_Expression_by_Heterochromatic_State.jpg){width="100%"}](https://commons.wikimedia.org/wiki/File:Relative_TERRA_Expression_by_Heterochromatic_State.jpg)
+
+------------------------------------------------------------------------
+
+## Actividades Básicas del Núcleo Requieren Dinámica de la Cromatina
+
+-   El genoma está empaquetado en una arquitectura de "cuentas en un collar" nucleosómica.\
+
+-   Este empaquetamiento protege, condensa y organiza el ADN, pero también reprime el acceso.
+
+    [![Cromatina dinámica.](https://upload.wikimedia.org/wikipedia/commons/b/bd/Chromatin_and_chromatin_with_nucleosome_eviction.jpg)](https://commons.wikimedia.org/wiki/File:Chromatin_and_chromatin_with_nucleosome_eviction.jpg)
+
+    ## Actividades Básicas del Núcleo Requieren Dinámica de la Cromatina 
+
+-   Procesos como la transcripción, la replicación del ADN, la reparación del ADN y otros requieren acceso al ADN, lo que implica una conformación de cromatina abierta.\
+
+-   Hay Mecanismos que evolucionaron para contrarrestar la naturaleza represiva del nucleosoma, permitiendo actividades nucleares flexibles.
+
+[![Modificaciones de las histonas.](https://upload.wikimedia.org/wikipedia/commons/a/ac/Relative_TERRA_Expression_by_Heterochromatic_State.jpg){width="100%"}](https://commons.wikimedia.org/wiki/File:Relative_TERRA_Expression_by_Heterochromatic_State.jpg)
+
+------------------------------------------------------------------------
+
+## Transcripción y Dinámica de la Cromatina
+
+-   La transcripción requiere hebra de ADN abierta para sintetizar ARN.
+-   Los factores de transcripción (TFs) necesitan acceso a sus secuencias objetivo, lo que requiere remodelación de la estructura de los nucleosomas.
+
+[![Cromatina dinámica.](https://upload.wikimedia.org/wikipedia/commons/b/bd/Chromatin_and_chromatin_with_nucleosome_eviction.jpg){alt="Cromatina dinámica."}](#0)
+
+## Transcripción y Dinámica de la Cromatina
+
+-   Durante la replicación, el complejo de ARN polimerasa encuentra nucleosomas que deben ser removidos y luego reensamblados.
+-   Estos procesos requieren una estructura de cromatina dinámica que responda a señales externas.
+
+[![Nucleosomas y replicación del ADN.](https://upload.wikimedia.org/wikipedia/commons/b/b1/Replication_through_Nucleosomes.JPG)](https://commons.wikimedia.org/w/index.php?search=Replication_through_Nucleosomes&title=Special:MediaSearch&go=Go&type=image)
+
+------------------------------------------------------------------------
+
+## Replicación del ADN y Dinámica de la Cromatina
+
+-   La replicación del ADN requiere la eliminación de nucleosomas en los orígenes de replicación.
+-   Los nucleosomas son removidos frente a la horquilla de replicación y reensamblados detrás de ella.
+
+![Nucleosomas y replicación del ADN.](https://upload.wikimedia.org/wikipedia/commons/b/b1/Replication_through_Nucleosomes.JPG){alt="Nucleosomas y replicación del ADN."}
+
+## Replicación del ADN y Dinámica de la Cromatina
+
+-   Las modificaciones de histonas, la metilación del ADN y otros factores asociados a la cromatina deben restablecerse.
+-   Los mecanismos de herencia epigenética en el sitio de replicación incluyen la duplicación de patrones de metilación del ADN, pero el mantenimiento de la información codificada por proteínas, como marcas de histonas y variantes de histonas, es menos comprendido.
+
+[![Nucleosomas y replicación del ADN.](https://upload.wikimedia.org/wikipedia/commons/b/b1/Replication_through_Nucleosomes.JPG){alt="Nucleosomas y replicación del ADN."}](https://commons.wikimedia.org/w/index.php?search=Replication_through_Nucleosomes&title=Special:MediaSearch&go=Go&type=image)
+
+------------------------------------------------------------------------
+
+## Otros Procesos Nucleares
+
+-   La reparación y recombinación del ADN requieren la eliminación local de nucleosomas para alinear secuencias de ADN.
+
+[![Recombinación meiótica.](https://upload.wikimedia.org/wikipedia/commons/6/6d/Nematode_C._elegans_meiosis_meiotic_recombination.jpg)](https://commons.wikimedia.org/wiki/File:Nematode_C._elegans_meiosis_meiotic_recombination.jpg)
+
+## Otros Procesos Nucleares
+
+-   Procesos como la adición de telómeros, la segregación de cromosomas y el silenciamiento de elementos transponibles dependen de estructuras específicas de cromatina.
+
+[![Estabilización y síntesis de telómeros por la telomerasa.](https://upload.wikimedia.org/wikipedia/commons/8/83/TelomeraseMechanism.jpg)](https://commons.wikimedia.org/wiki/File:TelomeraseMechanism.jpg)
+
+-   La naturaleza represiva de los nucleosomas también previene la transcripción espuria, permitiendo que los procesos se activen solo en sitios específicos.
+
+[![Mecanismos de reparación del ADN.](https://upload.wikimedia.org/wikipedia/commons/e/e6/DNA_Repair_Mechanisms.png){alt="Modificaciones de las histonas."}](https://commons.wikimedia.org/wiki/File:DNA_Repair_Mechanisms.png)
+
+------------------------------------------------------------------------
+
+## Secuencia de ADN y Posicionamiento de Nucleosomas
+
+-   Las secuencias de ADN pueden influir en el posicionamiento de los nucleosomas.
+-   Ciertas secuencias favorecen la flexión del ADN, mientras que otras desfavorecen el ensamblaje de nucleosomas.
+-   La cromatina represiva, como la heterocromatina, es construida por complejos multiproteicos que condensan la fibra nucleosomal.
+-   Elementos límite o aisladores restringen el comportamiento expansivo de la heterocromatina.
+
+[![Organización de la cromatina.](https://upload.wikimedia.org/wikipedia/commons/3/34/The_basic_unit_of_chromatin_organization_is_the_nucleosome%2C_which_comprises_147_bp_of_DNA_wrapped_ar.jpg)](https://commons.wikimedia.org/wiki/File:The_basic_unit_of_chromatin_organization_is_the_nucleosome,_which_comprises_147_bp_of_DNA_wrapped_ar.jpg)
+
+------------------------------------------------------------------------
+
+## Organización Local y 3D de la Cromatina
+
+-   Los elementos aisladores regulan la interacción específica de tejido entre potenciadores y promotores \[8\].\
+
+-   Estos elementos previenen la propagación de cromatina represiva hacia dominios activos \[8\].
+
+    [![](https://upload.wikimedia.org/wikipedia/commons/e/ee/Nucleus_%26_Chromatin_Territorial_Structure.jpg)](https://commons.wikimedia.org/wiki/File:Nucleus_%26_Chromatin_Territorial_Structure.jpg)\
+
+## Organización Local y 3D de la Cromatina
+
+-   CTCF unido a aisladores, junto con cohesinas, forma bucles de cromatina a gran escala y dominios asociados topológicamente (TADs).\
+-   La secuencia de ADN juega un papel crucial en la organización de la cromatina y su contribución al paisaje epigenético.
+
+[![](https://upload.wikimedia.org/wikipedia/commons/8/82/Lamina_associated_domains%2C_LAD.png)](https://commons.wikimedia.org/wiki/File:Lamina_associated_domains,_LAD.png)
+
+------------------------------------------------------------------------
+
+## Iniciación de la Transcripción y Remodelación de la Cromatina
+
+-   La transcripción es iniciada por una cascada de remodelación de la cromatina.\
+
+-   Los factores de transcripción pioneros (TFs pioneros) pueden reconocer su secuencia de unión en un contexto nucleosomal.
+
+    ![Factor pionero abre espacio y atrae otros factores de transcripción.](https://upload.wikimedia.org/wikipedia/commons/0/02/Pioneer_Factor-Active_Mode.jpg){width="602"}\
+
+    ## Iniciación de la Transcripción y Remodelación de la Cromatina
+
+-   Los TFs pioneros atraen complejos de acetilasa de histonas, como SAGA, que desestabilizan los nucleosomas.\
+
+-   Complejos de remodelación de cromatina dependientes de ATP son necesarios para hacer accesible el ADN para el ensamblaje del complejo de preiniciación transcripcional.
+
+![Factor pionero abre espacio y atrae otros factores de transcripción.](https://upload.wikimedia.org/wikipedia/commons/0/02/Pioneer_Factor-Active_Mode.jpg){alt="Factor pionero abre espacio y atrae otros factores de transcripción." width="602"}
+
+------------------------------------------------------------------------
+
+## Complejos de Remodelación de Cromatina
+
+-   La remodelación de la cromatina implica reconfigurar las interacciones histona-ADN.\
+
+-   Los complejos de remodelación de cromatina dependientes de ATP utilizan energía de la hidrólisis de ATP para interrumpir, reensamblar o mover nucleosomas.
+
+    [![Regulación de la transcripción por remodelado de la cromatina.](https://upload.wikimedia.org/wikipedia/commons/f/f3/Remodeladores_de_la_cromatina_y_regulaci%C3%B3n_de_la_transcripci%C3%B3n.png)](https://commons.wikimedia.org/wiki/File:Remodeladores_de_la_cromatina_y_regulaci%C3%B3n_de_la_transcripci%C3%B3n.png)\
+
+-   Los remodeladores pueden mediar el deslizamiento de nucleosomas, generar acceso para TFs, inducir la expulsión del octámero de histonas o reemplazar una histona central con una variante.\
+
+-   Componentes de los complejos de remodelación de cromatina están frecuentemente mutados en cánceres.
+
+    [![Regulación de la transcripción por remodelado de la cromatina.](https://upload.wikimedia.org/wikipedia/commons/f/f3/Remodeladores_de_la_cromatina_y_regulaci%C3%B3n_de_la_transcripci%C3%B3n.png){alt="Regulación de la transcripción por remodelado de la cromatina."}](#0)
+
+------------------------------------------------------------------------
+
+## Tipos de Actividades de Remodelación
+
+-   Los remodeladores utilizan una actividad de translocasa de ADN dependiente de ATP para romper contactos histona-ADN.\
+
+-   La subunidad ATPasa tiene alta afinidad por los nucleosomas y desenrolla vueltas externas de ADN.\
+
+-   Las ATPasas Snf2 se agrupan en cuatro clases: SWI/SNF, ISWI, CHD/Mi-2 y INO80-SWR1.
+
+    [![Complejos remodeladores de cromatina.](https://upload.wikimedia.org/wikipedia/en/1/18/Luong_LD_SA_F2.jpg)](https://en.wikipedia.org/wiki/File:Luong_LD_SA_F2.jpg)\
+
+-   Los remodeladores SWI/SNF están involucrados en una amplia gama de procesos de control génico.\
+
+-   Los remodeladores de la familia CHD contienen cromodominios y están involucrados en la desacetilación de histonas.\
+
+-   El dominio ATPasa conduce la actividad de translocasa de ADN, y los dominios accesorios afinan la actividad.
+
+[![Complejos remodeladores de cromatina.](https://upload.wikimedia.org/wikipedia/en/1/18/Luong_LD_SA_F2.jpg){alt="Complejos remodeladores de cromatina."}](#0)
+
+------------------------------------------------------------------------
+
+## Determinación de la Accesibilidad del ADN
+
+-   Métodos como DNase-seq, ATAC-seq y MNase-seq se utilizan para determinar la accesibilidad del ADN.\
+-   Estos métodos se basan en nucleasas que tienen cierta especificidad de secuencia de ADN.\
+-   Los resultados que miden la dinámica de la cromatina deben tener en cuenta estas limitaciones.
+
+[![Principio de la ATAC-seq.](https://upload.wikimedia.org/wikipedia/commons/3/37/ATAC-seq.png)](https://commons.wikimedia.org/wiki/File:ATAC-seq.png)
+
+------------------------------------------------------------------------
+
+## Variantes de Histonas y Chaperonas
+
+-   La mayoría de las histonas se producen durante la fase S del ciclo celular \[18\].\
+
+-   Las variantes de histonas se producen en cualquier momento, con diversos roles en la estructuración de la cromatina \[18\].\
+
+-   La variante H3 centrómera, CENPA, se incorpora en la cromatina centrómera \[18\].
+
+    [![Ubicación de CENPA en un cariotipo de zanahoria.](https://upload.wikimedia.org/wikipedia/commons/a/a3/Karyotype_of_carrot_%28Daucus_carota%29.png)](https://commons.wikimedia.org/wiki/File:Karyotype_of_carrot_(Daucus_carota).png)\
+
+-   H3.3 repara brechas en el paisaje de cromatina.\
+
+-   H2A.Z y H2A.B están implicados en la iniciación de la transcripción, y macroH2A en el silenciamiento transcripcional.\
+
+-   Las chaperonas de histonas son esenciales para el ensamblaje y mantenimiento de nucleosomas.
+
+[![Cromosoma X inactivo con asociación con macroH2A](https://upload.wikimedia.org/wikipedia/commons/1/13/BarrBodyBMC_Biology2-21-Fig1clip293px.jpg)](https://commons.wikimedia.org/wiki/File:BarrBodyBMC_Biology2-21-Fig1clip293px.jpg)
+
+[![Ensamblaje de nucleosomas.](https://upload.wikimedia.org/wikipedia/commons/c/cb/Steps_in_nucleosome_assembly.svg)](https://commons.wikimedia.org/wiki/File:Steps_in_nucleosome_assembly.svg)
+
+------------------------------------------------------------------------
+
+## Resumen
+
+-   El ensamblaje de histonas en nucleosomas está influenciado por secuencias de ADN.\
+-   Los elementos de ADN organizan la cromatina en el espacio 3D del núcleo.\
+-   La transcripción es iniciada por una cascada de remodelación de cromatina.\
+-   Los TFs pioneros y los complejos de remodelación de cromatina impulsados por ATP son esenciales para la iniciación de la transcripción.
