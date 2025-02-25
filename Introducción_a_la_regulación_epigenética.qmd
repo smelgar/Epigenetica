@@ -308,3 +308,5 @@ H3K27me2:
 -   Los sitios CTCF (Factor de unión a un sitio CCCTC) en la base de los bucles de cromatina están orientados hacia cada otro, lo que sugiere un bloqueo direccional del deslizamiento de la cohesina.
 
 [![Cohesinas durante la replicación.](https://upload.wikimedia.org/wikipedia/commons/9/98/Cohesin_during_replication.jpg){width="500"}](https://commons.wikimedia.org/wiki/File:Cohesin_during_replication.jpg)
+
+# Gracias

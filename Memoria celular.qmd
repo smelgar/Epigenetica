@@ -1,0 +1,151 @@
+---
+title: "Memoria Celular"
+subtitle: "Introducción a la Epigenética"
+author: 
+  - Renato Paro
+  - Ueli Grossniklaus
+  - Raffaella Santoro
+  - Anton Wutz
+format: revealjs
+editor: visual
+---
+
+## Introducción
+
+-   La identidad celular está definida por perfiles transcripcionales específicos.
+-   Durante la división celular, estos perfiles deben heredarse.
+-   Esto asegura la estructura y función dentro de una línea celular.
+-   Exploramos cómo las células mantienen su estado transcripcional o "memoria celular".
+
+[![Diferenciación celular a patir de células madre.](https://upload.wikimedia.org/wikipedia/commons/c/cf/Final_stem_cell_differentiation_es.svg)](https://commons.wikimedia.org/wiki/File:Final_stem_cell_differentiation_es.svg)
+
+## El Desafío de la Memoria Celular
+
+-   Durante la replicación y división, proteínas reguladoras y factores de cromatina se separan del ADN.
+-   Mecanismos complejos evolucionaron para retener identidades celulares.
+-   Las células tienen una "memoria celular" que mantiene decisiones del desarrollo.
+
+[![Diagrama de hombre adulto.](https://upload.wikimedia.org/wikipedia/commons/9/9a/Adult_male_diagram_template.svg)](https://commons.wikimedia.org/wiki/File:Adult_male_diagram_template.svg)
+
+## Evidencia de Memoria Celular
+
+-   Experimentos de trasplante revelan diferencias según el estado programado.
+-   Antes de determinarse, las células se adaptan a nuevos vecinos.
+-   Después de determinarse, las células retienen su identidad original.
+-   Existe un período donde los programas celulares se fijan y son irreversibles.
+
+[![Trasplante de labio dorsal en salamandras.](https://upload.wikimedia.org/wikipedia/commons/9/99/Dorsal_lip_transplantation_in_a_salamander_embryo.png)](https://commons.wikimedia.org/wiki/File:Dorsal_lip_transplantation_in_a_salamander_embryo.png)
+
+## Memoria Celular en Drosophila
+
+-   En *Drosophila melanogaster*, los discos imaginales mantienen su programa determinado.
+-   Fragmentos trasplantados crecen pero no se diferencian en adultos.
+-   Trasplantados de vuelta a larvas, se diferencian como el disco original.
+
+[![Discos imaginales de larvas se convierten en tejidos de adultos.](https://upload.wikimedia.org/wikipedia/commons/9/9b/Imaginal_discs_of_drosophila.png)](https://commons.wikimedia.org/wiki/File:Imaginal_discs_of_drosophila.png)
+
+## Transdeterminación
+
+:::: columns
+::: {.column width="100%"}
+-   En casos raros, fragmentos trasplantados producen estructuras diferentes (transdeterminación).
+-   Estos cambios imitan fenotipos de mutantes homeóticos.
+-   La memoria celular conserva patrones de expresión de reguladores maestros.
+:::
+::::
+
+::::: columns
+::: {.column width="50%"}
+[![Mutante antennapedia en Drosophila.](https://upload.wikimedia.org/wikipedia/commons/f/f2/202208_Fruit_fly_antennapedia_complex.svg)](https://commons.wikimedia.org/wiki/File:202208_Fruit_fly_antennapedia_complex.svg)
+:::
+
+::: {.column width="50%"}
+[![Drosophila silvestre hembra.](https://upload.wikimedia.org/wikipedia/commons/2/2c/202208_Fruit_fly_female_adult_from_a_overhead_view.svg)](https://commons.wikimedia.org/wiki/File:202208_Fruit_fly_female_adult_from_a_overhead_view.svg)
+:::
+:::::
+
+## Sistema PcG/TrxG
+
+-   Los grupos Polycomb (PcG) y Trithorax (TrxG) actúan opuestamente.
+-   PcG modifica histonas con marcas represivas, condensando cromatina.
+-   TrxG contrarresta dominios represivos abriendo nucleosomas.
+
+[![](https://upload.wikimedia.org/wikipedia/commons/e/ee/Nucleus_%26_Chromatin_Territorial_Structure.jpg)](https://commons.wikimedia.org/wiki/File:Nucleus_%26_Chromatin_Territorial_Structure.jpg)
+
+## Represión Transcripcional por PcG
+
+-   Mutaciones en genes PcG desregulan reguladores maestros.
+-   PcG no establece patrones de expresión, sino que los mantiene.
+-   Mutaciones aumentan la tasa de transdeterminación.
+
+[![Silenciamiento de genes de desarrollo por proteínas Polycomb.](https://upload.wikimedia.org/wikipedia/commons/5/55/Polycomb-K%C3%B6rper_ES.svg)](https://commons.wikimedia.org/wiki/File:Polycomb-K%C3%B6rper_ES.svg)
+
+## Funciones Moleculares de PcG/TrxG
+
+-   Histonas llevan modificaciones covalentes relacionadas con estados transcripcionales.
+-   PcG y TrxG codifican "escritores", "lectores" y "borradores" de información epigenética.
+-   El equilibrio entre PcG y TrxG define accesibilidad de cromatina.
+
+[![Acetilación y desacetilación de histonas.](https://upload.wikimedia.org/wikipedia/commons/d/d0/Histone_acetylation_and_deacetylation.jpg)](https://upload.wikimedia.org/wikipedia/commons/d/d0/Histone_acetylation_and_deacetylation.jpg)
+
+## Silenciamiento Mediado por PcG
+
+-   El silenciamiento PcG se caracteriza por la marca H3K27me3.
+-   PRC1 y PRC2 cooperan para colocar esta marca.
+-   Proteínas PcG pueden formar cuerpos PcG mediante separación de fase.
+
+[![Los dominios de cromatina bivalente marcan los promotores de genes importantes para el desarrollo en células ES pluripotentes. Las proteínas PRC2 y TrxG catalizan la trimetilación de la histona H3 en la lisina 27 y 4, respectivamente. PRC1 también se recluta en muchos de estos genes y puede monoubiquitinilar la histona H2A en la lisina 119, una modificación que también se cree que es importante para el silenciamiento de genes, posiblemente mediante el bloqueo del alargamiento de RNAPII. Como tales, se dice que los genes bivalentes son silenciosos, pero están preparados para activarse. H2AZ está altamente enriquecido de una manera notablemente similar a PRC2 y también puede ser un componente regulador importante en genes bivalentes. Tras la diferenciación, las marcas de histonas bivalentes se pueden resolver en modificaciones monovalentes en las que el gen está "ON" o "OFF". Los dominios bivalentes también pueden mantenerse o establecerse recientemente en células comprometidas con el linaje.](https://upload.wikimedia.org/wikipedia/commons/9/9f/Bivalent_chromatin_domains_mark_the_promoters_of_developmentally_important_genes_in_pluripotent_ES_c.jpg)](https://commons.wikimedia.org/wiki/File:Bivalent_chromatin_domains_mark_the_promoters_of_developmentally_important_genes_in_pluripotent_ES_c.jpg)
+
+## Activación Transcripcional por TrxG
+
+-   Factores TrxG participan en procesos activos de transcripción.
+-   Contrarrestan el silenciamiento PcG y cambian genes reprimidos a activos.
+-   Actúan como "marcadores" para mantener genes activos durante la fase S.
+
+![Los dominios de cromatina bivalente marcan los promotores de genes importantes para el desarrollo en células ES pluripotentes. Las proteínas PRC2 y TrxG catalizan la trimetilación de la histona H3 en la lisina 27 y 4, respectivamente. PRC1 también se recluta en muchos de estos genes y puede monoubiquitinilar la histona H2A en la lisina 119, una modificación que también se cree que es importante para el silenciamiento de genes, posiblemente mediante el bloqueo del alargamiento de RNAPII. Como tales, se dice que los genes bivalentes son silenciosos, pero están preparados para activarse. H2AZ está altamente enriquecido de una manera notablemente similar a PRC2 y también puede ser un componente regulador importante en genes bivalentes. Tras la diferenciación, las marcas de histonas bivalentes se pueden resolver en modificaciones monovalentes en las que el gen está "ON" o "OFF". Los dominios bivalentes también pueden mantenerse o establecerse recientemente en células comprometidas con el linaje.](https://upload.wikimedia.org/wikipedia/commons/9/9f/Bivalent_chromatin_domains_mark_the_promoters_of_developmentally_important_genes_in_pluripotent_ES_c.jpg)
+
+## Dominios Bivalentes
+
+-   Dominios bivalentes tienen H3K27me3 (marca PcG) y H3K4me3 (marca TrxG).
+-   En etapas embrionarias tempranas, indican un estado "preparado".
+-   El equilibrio PcG/TrxG decide si un gen se activa o reprime.
+
+![Los dominios de cromatina bivalente marcan los promotores de genes importantes para el desarrollo en células ES pluripotentes. Las proteínas PRC2 y TrxG catalizan la trimetilación de la histona H3 en la lisina 27 y 4, respectivamente. PRC1 también se recluta en muchos de estos genes y puede monoubiquitinilar la histona H2A en la lisina 119, una modificación que también se cree que es importante para el silenciamiento de genes, posiblemente mediante el bloqueo del alargamiento de RNAPII. Como tales, se dice que los genes bivalentes son silenciosos, pero están preparados para activarse. H2AZ está altamente enriquecido de una manera notablemente similar a PRC2 y también puede ser un componente regulador importante en genes bivalentes. Tras la diferenciación, las marcas de histonas bivalentes se pueden resolver en modificaciones monovalentes en las que el gen está "ON" o "OFF". Los dominios bivalentes también pueden mantenerse o establecerse recientemente en células comprometidas con el linaje.](https://upload.wikimedia.org/wikipedia/commons/9/9f/Bivalent_chromatin_domains_mark_the_promoters_of_developmentally_important_genes_in_pluripotent_ES_c.jpg)
+
+## Diapositiva 12: Cambio de Memoria
+
+-   Interacciones PcG/TrxG generan estados opuestos necesarios para estabilidad.
+-   Genes reprimidos pueden activarse y viceversa según condiciones.
+-   Ejemplo: vernalización en plantas.
+
+[![El beleño requiere período de frío para inducir la floración.](https://upload.wikimedia.org/wikipedia/commons/a/aa/Hyoscyamus_niger_Hullukaali_Bolm%C3%B6rt_C_IMG_7657.JPG)](https://en.wikipedia.org/wiki/File:Hyoscyamus_niger_Hullukaali_Bolm%C3%B6rt_C_IMG_7657.JPG)
+
+## Papel de los ARNs No Codificantes
+
+-   ARNs largos no codificantes (lncRNAs) actúan como andamios para reclutar complejos PcG.
+-   Median silenciamiento local y a larga distancia.
+-   Modulan la actividad de proteínas TrxG.
+
+[![Modelo estructural de la región repA del lncRNA Xist.](https://upload.wikimedia.org/wikipedia/commons/2/2a/RepA_Model_Xist.png)](https://commons.wikimedia.org/wiki/File:RepA_Model_Xist.png)
+
+## Pérdida de Memoria Celular
+
+-   La pérdida es necesaria durante el desarrollo de células germinales.
+-   Células germinales borran dominios de cromatina específicos.
+-   Aseguran reinicio fiel de programación transcripcional en la fertilización.
+
+[![Espermatogénesis.](https://upload.wikimedia.org/wikipedia/commons/d/dd/Reproductive_system_-_Spermatogenesis_8_--_Smart-Servier.png)](https://commons.wikimedia.org/wiki/File:Reproductive_system_-_Spermatogenesis_8_--_Smart-Servier.png)
+
+## Herencia Transgeneracional
+
+-   Observada en animales y plantas, donde información epigenética no se borra.
+-   Afecta crecimiento y fisiología de la progenie.
+-   Ejemplo: herencia del estado de expresión del gen agouti en ratones.
+
+[![Cinco ratones atigrados que van desde el amarillo sólido sin rayas (izquierda) hasta el agutí sólido con todas las rayas (derecha). Cropley JE, Suter CM, Beckman KB, Martin DIK (2010) CpG Methylation of a Silent Controlling Element in the Murine Avy Allele Is Incomplete and Unresponsive to Methyl Donor Supplementation. PLoS ONE 5(2): e9055. \<https://doi.org/10.1371/journal.pone.0009055\>](https://upload.wikimedia.org/wikipedia/commons/e/ee/Viable_Yellow_Mice.png)](https://commons.wikimedia.org/wiki/File:Viable_Yellow_Mice.png)
+
+## Diapositiva 16: Resumen
+
+-   El sistema PcG/TrxG mantiene estados de expresión controlados por el desarrollo.
+-   Complejos PcG silencian genes a largo plazo (H3K27me3, cromatina condensada).
+-   El sistema es altamente conservado y participa en inactivación del cromosoma X y vernalización.
