@@ -22,6 +22,12 @@ format:
 
 [![Mecanismos epigenéticos.](https://upload.wikimedia.org/wikipedia/commons/7/77/Epigenetic_mechanisms-es.png){width="500"}](https://commons.wikimedia.org/wiki/File:Epigenetic_mechanisms-es.png)
 
+## Expresión génica
+
+-   Transformación de información genética a proteínas
+
+[![Expresión de genes eucariotas](https://upload.wikimedia.org/wikipedia/commons/2/2a/Gene_expression_eukaryote.png)](https://commons.wikimedia.org/wiki/File:Gene_expression_eukaryote.png)
+
 ## Organización del genoma
 
 -   El genoma se organiza en una fibra de cromatina con ADN.
@@ -118,16 +124,18 @@ format:
 ## Modificaciones de Histonas
 
 -   Las modificaciones postraduccionales de las histonas y las modificaciones de las bases de ADN permiten la regulación epigenética.
--   Las enzimas que catalizan las modificaciones de las histonas se llaman escritores.
+-   Las enzimas que catalizan las modificaciones de las histonas se llaman escritoras.
 
 [![Modificaciones de las histonas.](https://upload.wikimedia.org/wikipedia/commons/b/b1/Histone_modifications.png){width="100%"}](https://commons.wikimedia.org/wiki/File:Histone_modifications.png)
 
 ## Modificaciones de Histonas
 
--   Los borradores eliminan estas modificaciones, y los lectores son proteínas que se unen a estas modificaciones y dirigen funciones específicas.
+-   Las borradoras eliminan estas modificaciones, y las lectoras se unen a estas modificaciones y las interpretan.
 -   Las modificaciones de las histonas pueden detectarse mediante anticuerpos utilizando métodos bioquímicos o técnicas de tinción.
 
 [![Modificaciones de las histonas.](https://upload.wikimedia.org/wikipedia/commons/b/b1/Histone_modifications.png){width="100%"}](https://commons.wikimedia.org/wiki/File:Histone_modifications.png)
+
+[![Enzimas modificadoras de histonas.](https://upload.wikimedia.org/wikipedia/commons/5/57/NucleosomeKG.jpg)](https://commons.wikimedia.org/wiki/File:NucleosomeKG.jpg)
 
 ## Modificaciones de Histonas
 
@@ -175,7 +183,7 @@ H3K27me2:
 
 [![Pasos básicos de la tècnica del ChIP-array.](https://upload.wikimedia.org/wikipedia/commons/e/ef/ChIP_fig_4.png){width="100%"}](https://commons.wikimedia.org/wiki/File:ChIP_fig_4.png)
 
-## Escritores, Lectores y Borradores de Modificaciones de Histonas
+## Escritoras, Lectoras y Borradoras de Modificaciones de Histonas
 
 ::::: columns
 ::: {.column width="75%"}
@@ -184,7 +192,7 @@ H3K27me2:
 :::
 
 ::: {.column width="25%"}
-![Bromodominio de una proteína de levadura de cerveza (GCN5)](https://upload.wikimedia.org/wikipedia/commons/4/4b/1e6i_bromodomain.png){alt="Bromodominio de una protaína de levadura de cerveza (GCN5)" width="25%"}
+![Bromodominio de una proteína de levadura de cerveza (GCN5)](https://upload.wikimedia.org/wikipedia/commons/4/4b/1e6i_bromodomain.png){width="25%"}
 :::
 :::::
 
@@ -199,15 +207,17 @@ H3K27me2:
 ## Escritores, Lectores y Borradores de Modificaciones de Histonas
 
 -   Los cromodominios reconocen resíduos de lisina metilados.
--   La proteína Polycomb (Pc) contiene un cromodominio específico para H3K27me3 y se encargan de silenciar genesLas proteínas 14-3-3 tienen alta especificidad por la histona H3S10pK14ac doblemente modificada..
--   La señalización celular y las modificaciones combinatorias de histonas pueden contribuir a mecanismos complejos de regulación génica.
+-   La proteína Polycomb (Pc) contiene un cromodominio específico para H3K27me3 y se encargan de silenciar genes
+-   Las proteínas 14-3-3 tienen alta especificidad por la histona H3S10pK14ac doblemente modificada.
+-   La señalización celular y las modificaciones combinatorias de histonas contribuyen a mecanismos complejos de regulación génica.
 
 [![Metiltransferasas y demetilasas de histonas funcionan de manera antagonista.](https://upload.wikimedia.org/wikipedia/commons/f/f8/Histone_methyltransferases_and_demethylases_function_antagonistically_to_control_gene_expression_pat.jpg)](https://commons.wikimedia.org/wiki/File:Histone_methyltransferases_and_demethylases_function_antagonistically_to_control_gene_expression_pat.jpg)
 
 ## Modificaciones del ADN
 
 -   Las modificaciones del ADN añaden información al genoma sin cambiar la secuencia de ADN.
--   Las enzimas establecen y eliminan estas modificaciones dinámicamente.
+-   Al sintetizar la nueva hebra, las modificaciones son heredadas.
+-   Los mecanismos de herencia epigenética es mejor entendido en las modificaciones del ADN.
 
 [![Esta imagen ilustra posibles modificaciones epigenéticas en el ADN y en las histonas, como metilación de los sitios CpG, acetilación y metilación de las colas de las histonas.](https://upload.wikimedia.org/wikipedia/commons/d/df/Epigenetics_modifications.png){width="500"}](https://commons.wikimedia.org/wiki/File:Epigenetics_modifications.png)
 
@@ -224,7 +234,7 @@ H3K27me2:
 
 -   Las enzimas DNMT (ADN metiltransferasas) de mantenimiento restauran los patrones de metilación en las cadenas de ADN recién sintetizadas.
 
-![Metilación de la citosina.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/DNMT_reaction_mechanism.tif/lossless-page1-800px-DNMT_reaction_mechanism.tif.png){alt="Metilación de la citosina."}
+![Metilación de la citosina.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/DNMT_reaction_mechanism.tif/lossless-page1-800px-DNMT_reaction_mechanism.tif.png)
 
 ![Esta imagen ilustra posibles modificaciones epigenéticas en el ADN y en las histonas, como metilación de los sitios CpG, acetilación y metilación de las colas de las histonas.](https://upload.wikimedia.org/wikipedia/commons/d/df/Epigenetics_modifications.png){width="500"}
 
@@ -232,21 +242,6 @@ H3K27me2:
 
 ## Organización y Compartimentación de la Cromatina
 
-::::: columns
-::: {.column width="50%"}
--   La cromatina mantiene una distribución relativamente estable en el núcleo.
--   Los cromosomas ocupan volúmenes discretos llamados territorios cromosómicos (CTs).
-:::
-
-::: {.column width="50%"}
-[![Territorios cromosómicos.](https://upload.wikimedia.org/wikipedia/commons/3/39/Chromosome_territories.svg){width="100%"}](https://commons.wikimedia.org/wiki/File:Chromosome_territories.svg)
-
-[![Territorios cromosómicos en ratón, cromosoma 2 (rojo) y 9 (verde) en fondo azul.](https://upload.wikimedia.org/wikipedia/commons/f/f4/MouseChromosomeTerritoriesBMC_Cell_Biol6-44Fig2e.jpg){width="100%"}](https://commons.wikimedia.org/wiki/File:MouseChromosomeTerritoriesBMC_Cell_Biol6-44Fig2e.jpg)
-:::
-:::::
-
-## Organización y Compartimentación de la Cromatina
-
 -   La cromatina mantiene una distribución relativamente estable en el núcleo.
 -   Los cromosomas ocupan volúmenes discretos llamados territorios cromosómicos (CTs).
 
@@ -260,14 +255,7 @@ H3K27me2:
 :::
 :::::
 
-## Organización y Compartimentación de la Cromatina
-
--   La cromatina mantiene una distribución relativamente estable en el núcleo.
--   Los cromosomas ocupan volúmenes discretos llamados territorios cromosómicos (CTs).
-
-[![Territorios cromosómicos.](https://upload.wikimedia.org/wikipedia/commons/3/39/Chromosome_territories.svg){width="500"}](https://commons.wikimedia.org/wiki/File:Chromosome_territories.svg)
-
-[![Territorios cromosómicos en ratón, cromosoma 2 (rojo) y 9 (verde) en fondo azul.](https://upload.wikimedia.org/wikipedia/commons/f/f4/MouseChromosomeTerritoriesBMC_Cell_Biol6-44Fig2e.jpg){width="500"}](https://commons.wikimedia.org/wiki/File:MouseChromosomeTerritoriesBMC_Cell_Biol6-44Fig2e.jpg)
+## 
 
 ------------------------------------------------------------------------
 
@@ -286,7 +274,7 @@ H3K27me2:
 
 -   La heterocromatina pericéntrica se organiza en dominios con modificaciones específicas de histonas .
 -   Los dominios de asociación topológica (TADs) son regiones de cromatina con altas frecuencias de interacción.
-    -   Los compartimentos A se correlacionan con marcas de cromatina activa y los compartimentos B con cromatina inactiva.
+    -   Los "compartimentos A" se correlacionan con marcas de cromatina activa y los "compartimentos B" con cromatina inactiva.
 
 [![Organización estructural de la cromatina. (A) Territorios cromosómicaos. (B) Dominios de asociación topolótica (TADs). (C) TAD con interacciones entre elementos regulatorios y genes.](https://upload.wikimedia.org/wikipedia/commons/b/be/Structural_organization_of_chromatin.png){width="500"}](https://commons.wikimedia.org/wiki/File:Structural_organization_of_chromatin.png)
 
@@ -294,6 +282,7 @@ H3K27me2:
 
 ## Complejos de Mantenimiento Estructural de Cromosomas (SMC)
 
+-   La formación de TADs requiere proteínas de la familia SMC.
 -   Las proteínas SMC están involucradas en la condensación y segregación de los cromosomas durante la mitosis.
 -   Los complejos cohesina y condensina son dos complejos SMC distintos.
 -   Las proteínas SMC tienen dominios de cabeza ATPasa que hidrolizan ATP para ejercer función motora.
@@ -305,7 +294,8 @@ H3K27me2:
 ## Complejos de Mantenimiento Estructural de Cromosomas (SMC)
 
 -   Las cohesinas median la cohesión de las cromátidas hermanas y también están involucradas en la regulación génica.
--   Los sitios CTCF (Factor de unión a un sitio CCCTC) en la base de los bucles de cromatina están orientados hacia cada otro, lo que sugiere un bloqueo direccional del deslizamiento de la cohesina.
+-   Los bucles de cromatina tienen en su base sitios CTCF (Factor de unión a un sitio CCCTC)
+-   Dichos sitios están orientados hacia cada otro, lo que sugiere un bloqueo direccional del deslizamiento de la cohesina.
 
 [![Cohesinas durante la replicación.](https://upload.wikimedia.org/wikipedia/commons/9/98/Cohesin_during_replication.jpg){width="500"}](https://commons.wikimedia.org/wiki/File:Cohesin_during_replication.jpg)
 

@@ -32,7 +32,7 @@ format:
 
     [![Cromatina dinámica.](https://upload.wikimedia.org/wikipedia/commons/b/bd/Chromatin_and_chromatin_with_nucleosome_eviction.jpg)](https://commons.wikimedia.org/wiki/File:Chromatin_and_chromatin_with_nucleosome_eviction.jpg)
 
-    ## Actividades Básicas del Núcleo Requieren Dinámica de la Cromatina 
+    ## Actividades Básicas del Núcleo Requieren Dinámica de la Cromatina
 
 -   Procesos como la transcripción, la replicación del ADN, la reparación del ADN y otros requieren acceso al ADN, lo que implica una conformación de cromatina abierta.\
 
@@ -63,7 +63,7 @@ format:
 -   La replicación del ADN requiere la eliminación de nucleosomas en los orígenes de replicación.
 -   Los nucleosomas son removidos frente a la horquilla de replicación y reensamblados detrás de ella.
 
-![Nucleosomas y replicación del ADN.](https://upload.wikimedia.org/wikipedia/commons/b/b1/Replication_through_Nucleosomes.JPG){alt="Nucleosomas y replicación del ADN."}
+![Nucleosomas y replicación del ADN.](https://upload.wikimedia.org/wikipedia/commons/b/b1/Replication_through_Nucleosomes.JPG)
 
 ## Replicación del ADN y Dinámica de la Cromatina
 
@@ -134,7 +134,7 @@ format:
 
 -   Complejos de remodelación de cromatina dependientes de ATP son necesarios para hacer accesible el ADN para el ensamblaje del complejo de preiniciación transcripcional.
 
-![Factor pionero abre espacio y atrae otros factores de transcripción.](https://upload.wikimedia.org/wikipedia/commons/0/02/Pioneer_Factor-Active_Mode.jpg){alt="Factor pionero abre espacio y atrae otros factores de transcripción." width="602"}
+![Factor pionero abre espacio y atrae otros factores de transcripción.](https://upload.wikimedia.org/wikipedia/commons/0/02/Pioneer_Factor-Active_Mode.jpg){width="602"}
 
 ------------------------------------------------------------------------
 
