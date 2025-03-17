@@ -208,7 +208,7 @@ H3K27me2:
 :::
 
 ::: {.column width="25%"}
-![Cromodominio.](https://upload.wikimedia.org/wikipedia/commons/8/8c/PDB_1pfb_EBI.jpg){alt="Cromodominio." width="100%"}
+![Cromodominio.](https://upload.wikimedia.org/wikipedia/commons/8/8c/PDB_1pfb_EBI.jpg){width="100%"}
 :::
 :::::
 
@@ -324,6 +324,8 @@ H3K27me2:
 -   Las condensinas se encargan de la condensación de los cromosomas mitóticos.
 
     [![Célula en interfase (izquierda) y juego de cromosomas mitóticos (derecha).](https://upload.wikimedia.org/wikipedia/commons/f/fe/Condensation1.png)](https://commons.wikimedia.org/wiki/File:Condensation1.png)
+
+    [![Cariotipo espectral.](https://upload.wikimedia.org/wikipedia/commons/3/35/Sky_spectral_karyotype.png)](https://commons.wikimedia.org/wiki/File:Sky_spectral_karyotype.png)
 
 [![Composición de subunidades de complejos de condensina.](https://upload.wikimedia.org/wikipedia/commons/a/ad/3condensins2%28en%29.png)](https://commons.wikimedia.org/wiki/File:3condensins2(en).png)
 

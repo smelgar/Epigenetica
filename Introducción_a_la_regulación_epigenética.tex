@@ -1,0 +1,1074 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{svg}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Tabla de contenidos}
+\else
+  \newcommand\contentsname{Tabla de contenidos}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Listado de Figuras}
+\else
+  \newcommand\listfigurename{Listado de Figuras}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Listado de Tablas}
+\else
+  \newcommand\listtablename{Listado de Tablas}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figura}
+\else
+  \newcommand\figurename{Figura}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabla}
+\else
+  \newcommand\tablename{Tabla}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listado}
+\newcommand*\listoflistings{\listof{codelisting}{Listado de Listados}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{spanish}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Introducción a la regulación epigenética},
+  pdfauthor={Sergio Melgar},
+  pdflang={es-MX},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Introducción a la regulación epigenética}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Basado en: Paro, P. D. R., Grossniklaus, P. D. U., Santoro, D.
+R., \& Wutz, P. D. A. (2021). Biology of Chromatin. En Introduction to
+Epigenetics {[}Internet{]}. Springer.
+https://doi.org/10.1007/978-3-030-68670-3\_1}
+\author{Sergio Melgar}
+\date{}
+
+\begin{document}
+\maketitle
+
+
+\subsection{Introducción a la Regulación
+Epigenética}\label{introducciuxf3n-a-la-regulaciuxf3n-epigenuxe9tica}
+
+\begin{itemize}
+\item
+  Todos los organismos heredan rasgos codificados en el ADN.
+\item
+  La expresión génica es una función clave del genoma.
+\item
+  Otras funciones son la replicación y la herencia.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Epigenetic_mechanism.png}
+
+}
+
+\caption{Mecanismos epigenéticos.}
+
+\end{figure}%
+
+\subsection{Expresión génica}\label{expresiuxf3n-guxe9nica}
+
+\begin{itemize}
+\tightlist
+\item
+  Transformación de información genética a proteínas
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/Gene_expression_euka.png}
+
+}
+
+\caption{Expresión de genes eucariotas}
+
+\end{figure}%
+
+\subsection{Organización del genoma}\label{organizaciuxf3n-del-genoma}
+
+\begin{itemize}
+\item
+  El genoma se organiza en una fibra de cromatina con ADN.
+\item
+  En microscopio electrónico, la cromatina contiene partículas esféricas
+  denominadas nucleosomas.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/ORNL_History_-446706.jpg}
+
+}
+
+\caption{Micrografía electrónica de la cromatina.}
+
+\end{figure}%%
+\begin{figure}[H]
+
+{\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/Chromatin_and_histon.jpg}
+
+}
+
+\caption{La cromatina tiene ADN y proteínas.}
+
+\end{figure}%
+
+\subsection{Regulación de la expresión
+génica}\label{regulaciuxf3n-de-la-expresiuxf3n-guxe9nica}
+
+\begin{itemize}
+\item
+  La cromatina apoya la transducción de información epigenética en
+  procesos regulatorios.
+\item
+  La cromatina es dinámica.
+\item
+  Modificaciones de histonas y la accesibilidad del ADN contribuyen a la
+  regulación epigenética.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Closed_and_relaxed_c.jpg}
+
+}
+
+\caption{Acetilación de histonas.}
+
+\end{figure}%
+
+\subsection{Descubrimiento del
+Nucleosoma}\label{descubrimiento-del-nucleosoma}
+
+\begin{itemize}
+\item
+  La microscopía electrónica reveló arreglos lineales de partículas
+  esféricas.
+\item
+  Estas partículas están espaciadas regularmente y se han encontrado en
+  muchos eucariotas.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Chromatin_nucleofila.png}
+
+}
+
+\caption{Cromatina.}
+
+\end{figure}%
+
+\subsection{Descubrimiento del
+Nucleosoma}\label{descubrimiento-del-nucleosoma-1}
+
+\begin{itemize}
+\item
+  Los experimentos de digestión con nucleasas mostraron fragmentos de
+  ADN a intervalos regulares de \textasciitilde150 pares de bases.
+\item
+  Estos hallazgos llevaron a la comprensión de la estructura
+  nucleosómica.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Chromatin_nucleofila.png}
+
+}
+
+\caption{Cromatina.}
+
+\end{figure}%%
+\begin{figure}[H]
+
+{\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/Apoptotic_DNA_Ladder.png}
+
+}
+
+\caption{Escalera de ADN formada durante la apoptosis}
+
+\end{figure}%
+
+\subsection{La Estructura del
+Nucleosoma}\label{la-estructura-del-nucleosoma}
+
+\begin{itemize}
+\item
+  Un nucleosoma es la unidad básica repetitiva de la cromatina.
+\item
+  Consiste en 8 proteínas histonas y 146 pares de bases de ADN enrollado
+  alrededor de ellas.
+\item
+  El octámero de histonas se compone de un par de cada una de las
+  histonas H2A, H2B, H3 y H4.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Nucleosome_structure.jpg}
+
+}
+
+\caption{Nucleosoma.}
+
+\end{figure}%
+
+\subsection{La Estructura del
+Nucleosoma}\label{la-estructura-del-nucleosoma-1}
+
+\begin{itemize}
+\item
+  Las histonas tienen superficies cargadas positivamente que interactúan
+  con el ADN.
+\item
+  Tienen un dominio globular con hélice alfa.
+\item
+  Tienen colas N-terminales flexibles accesibles para modificaciones
+  postraduccionales.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/Nucleosome_1KX5_colo.png}
+
+}
+
+\caption{Estructura del nucleosoma.}
+
+\end{figure}%%
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Histone_tails_set_fo.jpg}
+
+}
+
+\caption{Nucleosoma modificado para activación.}
+
+\end{figure}%
+
+\subsection{Variantes de Histonas}\label{variantes-de-histonas}
+
+\begin{itemize}
+\tightlist
+\item
+  La composición de las histonas puede variar, introduciendo diferentes
+  funcionalidades.
+\item
+  Las variantes de las histonas H3 y H2A son comunes, mientras que H2B y
+  H4 son predominantemente invariantes.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includesvg[width=0.3\textwidth,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Basic_units_of_chrom.svg}
+
+}
+
+\caption{Composición de los nucleosomas.}
+
+\end{figure}%
+
+\subsection{Variantes de Histonas}\label{variantes-de-histonas-1}
+
+\begin{itemize}
+\tightlist
+\item
+  H3.1 y H3.2 son variantes que se depositan durante la replicación del
+  ADN;
+\item
+  H3.3 está involucrada en el intercambio de histonas en sitios
+  transcritos, heterocromatina pericéntrica y telomérica.
+\item
+  CENP-A reemplaza a la histona H3 en el centrómero, contribuyendo a su
+  rigidez y su función del cinetocoro.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includesvg[width=1\textwidth,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Steps_in_nucleosome_.svg}
+
+}
+
+\caption{Ensamblaje de nucleosomas.}
+
+\end{figure}%
+
+\subsection{Variantes de Histonas}\label{variantes-de-histonas-2}
+
+\begin{itemize}
+\tightlist
+\item
+  Las histonas están asociadas con chaperonas o cargadoras (loaders)
+  cuando no están en un contexto de cromatina. Por ejemplo:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    NAP-1: Proteína ensambladora del nucleosoma 1 para H2A y H2B.
+  \item
+    CAF-1: Factor de ensamblaje de cromatina 1 para H3 y H4.
+  \end{itemize}
+\item
+  La variante H2A.z está restringida a los promotores de genes activos.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includesvg[width=1\textwidth,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Steps_in_nucleosome_.svg}
+
+}
+
+\caption{Ensamblaje de nucleosomas.}
+
+\end{figure}%
+
+\subsection{Modificaciones de
+Histonas}\label{modificaciones-de-histonas}
+
+\begin{itemize}
+\tightlist
+\item
+  Las modificaciones postraduccionales de las histonas y las
+  modificaciones de las bases de ADN permiten la regulación epigenética.
+\item
+  Las enzimas que catalizan las modificaciones de las histonas se llaman
+  escritoras.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Histone_modification.png}
+
+}
+
+\caption{Modificaciones de las histonas.}
+
+\end{figure}%
+
+\subsection{Modificaciones de
+Histonas}\label{modificaciones-de-histonas-1}
+
+\begin{itemize}
+\tightlist
+\item
+  Las borradoras eliminan estas modificaciones, y las lectoras se unen a
+  estas modificaciones y las interpretan.
+\item
+  Las modificaciones de las histonas pueden detectarse mediante
+  anticuerpos utilizando métodos bioquímicos o técnicas de tinción.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Histone_modification.png}
+
+}
+
+\caption{Modificaciones de las histonas.}
+
+\end{figure}%%
+\begin{figure}[H]
+
+{\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/NucleosomeKG.jpg}
+
+}
+
+\caption{Enzimas modificadoras de histonas.}
+
+\end{figure}%
+
+\subsection{Modificaciones de
+Histonas}\label{modificaciones-de-histonas-2}
+
+\begin{itemize}
+\tightlist
+\item
+  Las técnicas de microscopía y las sondas fluorescentes pueden usarse
+  para analizar los estados de modificación y el contexto genómico.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/lossy-page1-649px-Th.jpg}
+
+}
+
+\caption{Cromatina teñida de rojo por anticuerpos de proteína 1a
+(heterocromatina) y en verde anticuerpos de contra H2Ax (eucromatina).}
+
+\end{figure}%%
+\begin{figure}[H]
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Relative_TERRA_Expre.jpg}
+
+}
+
+\caption{Modificaciones de las histonas.}
+
+\end{figure}%
+
+\subsection{Nomenclatura de las modificaciones de las
+histonas}\label{nomenclatura-de-las-modificaciones-de-las-histonas}
+
+H3K27me2:
+
+\begin{itemize}
+\item
+  Modificación de H3
+\item
+  K: lisina
+\item
+  27: posición de la lisina
+\item
+  me2: dimetilación en la posición de la lisina.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/Representation_of_ch.jpg}
+
+}
+
+\caption{Marcas en cromatinas durante especialización de líneas
+celulares.}
+
+\end{figure}%%
+\begin{figure}[H]
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Histone_modification.png}
+
+}
+
+\caption{Modificaciones de las histonas.}
+
+\end{figure}%
+
+\subsection{Modificaciones Combinatorias en la Heterocromatina
+Pericéntrica}\label{modificaciones-combinatorias-en-la-heterocromatina-pericuxe9ntrica}
+
+\begin{itemize}
+\tightlist
+\item
+  H3K9me3 es establecida por metiltransferasas de histonas como Suv3-9h1
+  y Suv3-9h2.
+\item
+  HP1 (proteína de heterocromatina 1) se une a H3K9me3 y es reclutada en
+  la heterocromatina pericéntrica.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/Heterochromatin_stru.jpg}
+
+}
+
+\caption{Células madre embrionarias no diferenciadas (izquierda), y
+células progenitoras neuronales (derecha). anticuerpos anti-HP1(verdes)
+para heterocromatina, anticuerpos anti-H3K9me3 (rojo) and DAPI (azul).}
+
+\end{figure}%%
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Karyotype_of_garlic_.png}
+
+}
+
+\caption{Centrómeros de una célula de ajo (rojo) teñidos con anticuerpo
+contra la histona centromérica H3 propia de plantas (CENH3).}
+
+\end{figure}%
+
+\subsection{Identificación en alta resolución de las modificaciones de
+las
+histonas}\label{identificaciuxf3n-en-alta-resoluciuxf3n-de-las-modificaciones-de-las-histonas}
+
+\begin{itemize}
+\tightlist
+\item
+  La inmunoprecipitación de cromatina (ChIP) vincula histonas
+  modificadas con secuencias de ADN.
+\item
+  ChIP utiliza anticuerpos para enriquecer una modificación específica
+  de histona.
+\item
+  El ADN puede analizarse mediante varios métodos, incluyendo ChIP-seq,
+  ChIP-array y PCR.
+\item
+  Esto permite obtener mapas genómicos de modificaciones de histonas a
+  resolución nucleosómica.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Chip-seq.png}
+
+}
+
+\caption{Pasos básicos de la técnica del ChIP-seq.}
+
+\end{figure}%
+
+\subsection{Identificación en alta resolución de las modificaciones de
+las
+histonas}\label{identificaciuxf3n-en-alta-resoluciuxf3n-de-las-modificaciones-de-las-histonas-1}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/ChIP_fig_4.png}
+
+}
+
+\caption{Pasos básicos de la tècnica del ChIP-array.}
+
+\end{figure}%
+
+\subsection{Escritoras, Lectoras y Borradoras de Modificaciones de
+Histonas}\label{escritoras-lectoras-y-borradoras-de-modificaciones-de-histonas}
+
+\begin{itemize}
+\tightlist
+\item
+  Histona acetiltransferasas (HATs), histona metiltransferasas (HMTs) e
+  histona quinasas utilizan cofactores de vías metabólicas para
+  modificar histonas.
+\item
+  Las proteínas que contienen bromodominios se unen a lisinas acetiladas
+  y atraen a otros reguladores y son consideradas lectoras.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.25\textwidth,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/1e6i_bromodomain.png}
+
+}
+
+\caption{Bromodominio de una proteína de levadura de cerveza (GCN5)}
+
+\end{figure}%
+
+\subsection{Escritores, Lectores y Borradores de Modificaciones de
+Histonas}\label{escritores-lectores-y-borradores-de-modificaciones-de-histonas}
+
+\begin{itemize}
+\tightlist
+\item
+  La acetilación de histonas se cree que elimina cargas positivas de
+  lisinas y reduce su afinidad al ADN.
+\item
+  Las acetilaciones están asociadas a promotores activos.
+\item
+  HP1 (Proteína de unión a la heterocromatina) se asocia con H3K9me3 a
+  través de un cromodominio y es una lectora.
+\item
+  Los cromodominios se encuentran en proteínas asociadas a
+  heterocromatina.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/PDB_1pfb_EBI.jpg}
+
+}
+
+\caption{Cromodominio.}
+
+\end{figure}%
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Heterochromatin_stru.jpg}
+
+}
+
+\caption{Células no diferenciadas ES (ESC, izquierda) derivadas de un
+progenitor neuronal (NPC, derecha) teñidas con anticuerpos anti-HP1
+(verde), anticuerpos anti-H3K9me3 (rojo) y DAPI (azul). En células ES,
+la heterocromatina aparece mayor y conmenores focos mientras que en las
+células progenitoras neuronales los focos son menores, más condensados y
+numerosos. Barra = 10 μm.}
+
+\end{figure}%
+
+\subsection{Escritores, Lectores y Borradores de Modificaciones de
+Histonas}\label{escritores-lectores-y-borradores-de-modificaciones-de-histonas-1}
+
+\begin{itemize}
+\tightlist
+\item
+  Los cromodominios reconocen resíduos de lisina metilados.
+\item
+  La proteína Polycomb (Pc) contiene un cromodominio específico para
+  H3K27me3 y se encargan de silenciar genes
+\item
+  Las proteínas 14-3-3 tienen alta especificidad por la histona
+  H3S10pK14ac doblemente modificada.
+\item
+  La señalización celular y las modificaciones combinatorias de histonas
+  contribuyen a mecanismos complejos de regulación génica.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/Histone_methyltransf.jpg}
+
+}
+
+\caption{Metiltransferasas y demetilasas de histonas funcionan de manera
+antagonista. Pueden permitir diferenciación de células madre
+embrionarias.}
+
+\end{figure}%
+
+\subsection{Modificaciones del ADN}\label{modificaciones-del-adn}
+
+\begin{itemize}
+\tightlist
+\item
+  Las modificaciones del ADN añaden información al genoma sin cambiar la
+  secuencia de ADN.
+\item
+  Al sintetizar la nueva hebra, las modificaciones son heredadas.
+\item
+  Los mecanismos de herencia epigenética es mejor entendido en las
+  modificaciones del ADN.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Epigenetics_modifica.png}
+
+}
+
+\caption{Esta imagen ilustra posibles modificaciones epigenéticas en el
+ADN y en las histonas, como metilación de los sitios CpG, acetilación y
+metilación de las colas de las histonas.}
+
+\end{figure}%
+
+\subsection{Modificaciones del ADN}\label{modificaciones-del-adn-1}
+
+\begin{itemize}
+\tightlist
+\item
+  La metilación del ADN es un sistema más simple para la heredabilidad
+  epigenética.
+\item
+  5mC se encuentra preferentemente en el contexto de dinucleótidos CG en
+  genomas de mamíferos.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/lossless-page1-800px.png}
+
+}
+
+\caption{Metilación de la citosina.}
+
+\end{figure}%%
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Epigenetics_modifica.png}
+
+}
+
+\caption{Esta imagen ilustra posibles modificaciones epigenéticas en el
+ADN y en las histonas, como metilación de los sitios CpG, acetilación y
+metilación de las colas de las histonas.}
+
+\end{figure}%
+
+\subsection{Modificaciones del ADN}\label{modificaciones-del-adn-2}
+
+\begin{itemize}
+\tightlist
+\item
+  Las enzimas DNMT (ADN metiltransferasas) de mantenimiento restauran
+  los patrones de metilación en las cadenas de ADN recién sintetizadas.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/lossless-page1-800px.png}
+
+}
+
+\caption{Metilación de la citosina.}
+
+\end{figure}%%
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Epigenetics_modifica.png}
+
+}
+
+\caption{Esta imagen ilustra posibles modificaciones epigenéticas en el
+ADN y en las histonas, como metilación de los sitios CpG, acetilación y
+metilación de las colas de las histonas.}
+
+\end{figure}%
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Organización y Compartimentación de la
+Cromatina}\label{organizaciuxf3n-y-compartimentaciuxf3n-de-la-cromatina}
+
+\begin{itemize}
+\tightlist
+\item
+  La cromatina mantiene una distribución relativamente estable en el
+  núcleo.
+\item
+  Los cromosomas ocupan volúmenes discretos llamados territorios
+  cromosómicos (CTs).
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includesvg[width=1\textwidth,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Chromosome_territori.svg}
+
+}
+
+\caption{Territorios cromosómicos.}
+
+\end{figure}%
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/MouseChromosomeTerri.jpg}
+
+}
+
+\caption{Territorios cromosómicos en ratón, cromosoma 2 (rojo) y 9
+(verde) en fondo azul.}
+
+\end{figure}%
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Organización y Compartimentación de la
+Cromatina}\label{organizaciuxf3n-y-compartimentaciuxf3n-de-la-cromatina-1}
+
+\begin{itemize}
+\tightlist
+\item
+  Los nucléolos son estructuras prominentes donde se transcribe el ARN
+  ribosómico.
+\item
+  Los compartimentos intercromatínicos (IC) son canales dentro de la
+  cromatina que permiten el acceso a los genes.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includesvg{Introducción_a_la_regulación_epigenética_files/mediabag/CT-IC-Modell-DE.svg}
+
+}
+
+\caption{Modelo de territorio cromosómico y compartimento
+intercromatínico (CT-IC).}
+
+\end{figure}%%
+\begin{figure}[H]
+
+{\centering \includesvg[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Diagram_human_cell_n.svg}
+
+}
+
+\caption{Núcleo.}
+
+\end{figure}%
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Organización y Compartimentación de la
+Cromatina}\label{organizaciuxf3n-y-compartimentaciuxf3n-de-la-cromatina-2}
+
+\begin{itemize}
+\tightlist
+\item
+  La heterocromatina pericéntrica se organiza en dominios con
+  modificaciones específicas de histonas .
+\item
+  Los dominios de asociación topológica (TADs) son regiones de cromatina
+  con altas frecuencias de interacción.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Los ``compartimentos A'' se correlacionan con marcas de cromatina
+    activa y los ``compartimentos B'' con cromatina inactiva.
+  \end{itemize}
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Structural_organizat.png}
+
+}
+
+\caption{Organización estructural de la cromatina. (A) Territorios
+cromosómicos. (B) Dominios de asociación topológica (TADs). (C) TAD con
+interacciones entre elementos regulatorios y genes.}
+
+\end{figure}%
+
+\subsection{Organización y Compartimentación de la
+Cromatina}\label{organizaciuxf3n-y-compartimentaciuxf3n-de-la-cromatina-3}
+
+\begin{itemize}
+\item
+  Los TADs se determinan mediante técnicas que permiten detectar las
+  secuencias de ADN que se asocian a otras por su proximidad.
+\item
+  En la Captura de Conformación de Cromatina (3C) se hacen ligamientos
+  cruzados entre el ADN cercano y proteínas asociadas mediante
+  formaldehído.
+\item
+  Luego se digiere con nucleasas.
+\item
+  Luego se secuencian los fragmentos de ADN que se encontraban cercanos.
+\item
+  Se grafica en una matriz.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/HiCschematic.png}
+
+}
+
+\caption{Procedimiento para Hi-C y detección de TADs.}
+
+\end{figure}%
+
+\subsection{Complejos de Mantenimiento Estructural de Cromosomas
+(SMC)}\label{complejos-de-mantenimiento-estructural-de-cromosomas-smc}
+
+\begin{itemize}
+\tightlist
+\item
+  La formación de TADs requiere proteínas de la familia SMC.
+\item
+  Las proteínas SMC están involucradas en la condensación y segregación
+  de los cromosomas durante la mitosis.
+\item
+  Los complejos cohesina y condensina son dos complejos SMC distintos.
+\item
+  Las proteínas SMC tienen dominios de cabeza ATPasa que hidrolizan ATP
+  para ejercer función motora.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includesvg[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Models_of_SMC_and_co.svg}
+
+}
+
+\caption{Proteínas SMC.}
+
+\end{figure}%
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Complejos de Mantenimiento Estructural de Cromosomas
+(SMC)}\label{complejos-de-mantenimiento-estructural-de-cromosomas-smc-1}
+
+\begin{itemize}
+\tightlist
+\item
+  Las cohesinas median la cohesión de las cromátidas hermanas y también
+  están involucradas en la regulación génica.
+\item
+  Los bucles de cromatina tienen en su base sitios CTCF (Factor de unión
+  a un sitio CCCTC)
+\item
+  Dichos sitios están orientados hacia cada otro, lo que sugiere un
+  bloqueo direccional del deslizamiento de la cohesina.
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{Introducción_a_la_regulación_epigenética_files/mediabag/Cohesin_during_repli.jpg}
+
+}
+
+\caption{Cohesinas durante la replicación.}
+
+\end{figure}%
+
+\subsection{Complejos de Mantenimiento Estructural de Cromosomas
+(SMC)}\label{complejos-de-mantenimiento-estructural-de-cromosomas-smc-2}
+
+\begin{itemize}
+\item
+  Las condensinas se encargan de la condensación de los cromosomas
+  mitóticos.
+
+  \begin{figure}[H]
+
+  {\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/Condensation1.png}
+
+  }
+
+  \caption{Célula en interfase (izquierda) y juego de cromosomas
+  mitóticos (derecha).}
+
+  \end{figure}%
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics{Introducción_a_la_regulación_epigenética_files/mediabag/3condensins2-en-.png}
+
+}
+
+\caption{Composición de subunidades de complejos de condensina.}
+
+\end{figure}%
+
+\section{Gracias}\label{gracias}
+
+
+
+
+\end{document}
