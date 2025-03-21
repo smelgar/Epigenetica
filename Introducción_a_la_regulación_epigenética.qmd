@@ -6,6 +6,7 @@ author: "Sergio Melgar"
 lang: es-MX
 format: 
   revealjs:
+    preview-links: true
     scrollable: true
     plugins: [notes, chalkboard]
     chalkboard:
@@ -34,9 +35,15 @@ format:
 
 -   En microscopio electrónico, la cromatina contiene partículas esféricas denominadas nucleosomas.
 
+::: panel-tabset
+### Nucleosomas en cromatina
+
 [![Micrografía electrónica de la cromatina.](https://upload.wikimedia.org/wikipedia/commons/9/96/ORNL_History_%2844670612800%29.jpg)](https://commons.wikimedia.org/wiki/File:ORNL_History_(44670612800).jpg)
 
+### Organización
+
 [![La cromatina tiene ADN y proteínas.](https://upload.wikimedia.org/wikipedia/commons/b/b3/Chromatin_and_histones.jpg)](https://commons.wikimedia.org/wiki/File:Chromatin_and_histones.jpg)
+:::
 
 ## Regulación de la expresión génica
 
@@ -62,9 +69,16 @@ format:
 
 -   Estos hallazgos llevaron a la comprensión de la estructura nucleosómica.
 
-[![Cromatina.](https://upload.wikimedia.org/wikipedia/commons/b/b5/Chromatin_nucleofilaments_%28detail%29.png){width="500"}](https://commons.wikimedia.org/wiki/File:Chromatin_nucleofilaments_(detail).png)
+::::: columns
+::: {.column width="75%"}
+[![Cromatina.](https://upload.wikimedia.org/wikipedia/commons/b/b5/Chromatin_nucleofilaments_%28detail%29.png){width="100%"}](https://commons.wikimedia.org/wiki/File:Chromatin_nucleofilaments_(detail).png)
+:::
+
+::: {.column width="25%"}
 
 [![Escalera de ADN formada durante la apoptosis](https://upload.wikimedia.org/wikipedia/commons/7/75/Apoptotic_DNA_Laddering.png)](https://commons.wikimedia.org/wiki/File:Apoptotic_DNA_Laddering.png)
+:::
+:::::
 
 ## La Estructura del Nucleosoma
 
@@ -107,9 +121,7 @@ format:
 -   H3.3 está involucrada en el intercambio de histonas en sitios transcritos, heterocromatina pericéntrica y telomérica.
 -   CENP-A reemplaza a la histona H3 en el centrómero, contribuyendo a su rigidez y su función del cinetocoro.
 
-::: {.column width="50%"}
 [![Ensamblaje de nucleosomas.](https://upload.wikimedia.org/wikipedia/commons/c/cb/Steps_in_nucleosome_assembly.svg){width="100%"}](https://commons.wikimedia.org/wiki/File:Steps_in_nucleosome_assembly.svg)
-:::
 
 ## Variantes de Histonas
 
@@ -118,9 +130,7 @@ format:
     -   CAF-1: Factor de ensamblaje de cromatina 1 para H3 y H4.
 -   La variante H2A.z está restringida a los promotores de genes activos.
 
-::: {.column width="50%"}
 [![Ensamblaje de nucleosomas.](https://upload.wikimedia.org/wikipedia/commons/c/cb/Steps_in_nucleosome_assembly.svg){alt="Ensamblaje de nucleosomas." width="100%"}](https://commons.wikimedia.org/wiki/File:Steps_in_nucleosome_assembly.svg)
-:::
 
 ## Modificaciones de Histonas
 
