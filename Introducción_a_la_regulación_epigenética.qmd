@@ -6,6 +6,8 @@ author: "Sergio Melgar"
 lang: es-MX
 format: 
   revealjs:
+    slide-number: true
+    show-slide-number: all
     preview-links: true
     scrollable: true
     plugins: [notes, chalkboard]
@@ -75,7 +77,6 @@ format:
 :::
 
 ::: {.column width="25%"}
-
 [![Escalera de ADN formada durante la apoptosis](https://upload.wikimedia.org/wikipedia/commons/7/75/Apoptotic_DNA_Laddering.png)](https://commons.wikimedia.org/wiki/File:Apoptotic_DNA_Laddering.png)
 :::
 :::::
@@ -339,4 +340,8 @@ H3K27me2:
 
 [![Composición de subunidades de complejos de condensina.](https://upload.wikimedia.org/wikipedia/commons/a/ad/3condensins2%28en%29.png)](https://commons.wikimedia.org/wiki/File:3condensins2(en).png)
 
-# Gracias
+##  {.center}
+
+::: {#title-slide .center}
+**Gracias**
+:::
