@@ -104,7 +104,7 @@ format:
 
 -   La arginina 882 es un sitio muy frecuentemente mutado que causa disminución en la función.
 
--   Mutaciones de DNMT3A provocan un desvalance que favorece la renovación ante la diferenciación de células madre hematopoyéticas
+-   Mutaciones de DNMT3A provocan un desbalance que favorece la renovación ante la diferenciación de células madre hematopoyéticas
 
 -   Mutaciones en DNMT3A son preleucémicas pues requieren otros cambios para que se dé la leucemia.
 
