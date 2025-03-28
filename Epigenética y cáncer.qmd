@@ -27,7 +27,9 @@ format:
 -   Numerosos reguladores epigenéticos están frecuentemente mutados en varios tipos de cáncer.
 -   Esta información se está utilizando como marcadores pronósticos y predictivos para guiar las decisiones de tratamiento.
 
-[![Sensitización de una célula cancerígena con priming epigenético.](https://upload.wikimedia.org/wikipedia/commons/3/3b/Epigenetic_priming_in_Cancer.png)](https://commons.wikimedia.org/wiki/File:Epigenetic_priming_in_Cancer.png)
+[![Sensibilización de células cancerosas al tratamiento mediante modificaciones epigenéticas. Células normales con genes supresores de tumores (TSG) activados y células cancerosas con TSG inactivado mediante mecanismos epigenéticos (mostrando solo la acetilación para simplificar). Se realizaron estímulos epigenéticos con inhibidores de DNMT y/o HDAC, seguidos de inmunoterapia (segundos estímulos), lo que provocó la reactivación de los TSG.](https://upload.wikimedia.org/wikipedia/commons/3/3b/Epigenetic_priming_in_Cancer.png)](https://commons.wikimedia.org/wiki/File:Epigenetic_priming_in_Cancer.png)
+
+## 
 
 -   La **naturaleza reversible de las aberraciones epigenéticas** ha llevado al surgimiento de la **terapia epigenética.**
 -   Se proponen nuevas opciones terapéuticas para las neoplasias malignas caracterizadas por alteraciones epigenéticas mediante medicina personalizada.
@@ -38,7 +40,7 @@ format:
 ## Metilación del ADN y Cáncer
 
 -   La metilación aberrante del ADN fue la primera anormalidad epigenética identificada en cánceres humanos.
--   La metilación del ADN provocasilenciamiento génico que regula la expresión génica y la arquitectura de la cromatina.
+-   La metilación del ADN provoca silenciamiento génico que regula la expresión génica y la arquitectura de la cromatina.
 
 ![Alteraciones epigenética en la progresión de tumores.](https://upload.wikimedia.org/wikipedia/commons/2/28/Epigenetic_alterations_in_tumour_progression.svg){width="100%"}
 
@@ -48,15 +50,17 @@ format:
 
     -   **Hipermetilación del promotor y el consiguiente silenciamiento de los genes supresores de tumores**.
 
-        [![Actividad del supresor de tumores p53](https://upload.wikimedia.org/wikipedia/commons/9/9a/P53_pathways.jpg)](https://commons.wikimedia.org/wiki/File:P53_pathways.jpg)
+        [![Vía p53: En una célula normal, p53 es inactivado por su regulador negativo, mdm2. Ante daños en el ADN u otras situaciones de estrés, diversas vías conducen a la disociación del complejo p53-mdm2. Una vez activado, p53 inducirá una detención del ciclo celular para permitir la reparación y supervivencia de la célula o la apoptosis para eliminar la célula dañada. Actualmente se desconoce cómo p53 realiza esta selección.](https://upload.wikimedia.org/wikipedia/commons/9/9a/P53_pathways.jpg)](https://commons.wikimedia.org/wiki/File:P53_pathways.jpg)
 
-        ## 
+## 
 
-    -   **Hipometilación global asociada con la inestabilidad genómica**.
+-   **Hipometilación global asociada con la inestabilidad genómica**.
 
-    ![Patrones epigenéticos en células normales y con cáncer.](https://upload.wikimedia.org/wikipedia/commons/2/22/Normal-cancer-epigenome.png)
+![Patrones epigenéticos en células normales y con cáncer.](https://upload.wikimedia.org/wikipedia/commons/2/22/Normal-cancer-epigenome.png)
 
-    -   **Alteraciones de la metilación del ADN en las regiones de control de impronta con la consiguiente pérdida de impronta**.
+## 
+
+-   **Alteraciones de la metilación del ADN en las regiones de control de impronta con la consiguiente pérdida de impronta**.
 
 [![Impronta genética.](https://upload.wikimedia.org/wikipedia/commons/8/8f/Imprinting_materno.png)](https://es.wikipedia.org/wiki/Archivo:Imprinting_materno.png)
 
@@ -64,23 +68,23 @@ format:
 
 [![Igf2 es un ejemplo de impronta genómica. En ratones, el gen del factor de crecimiento insulínico tipo 2, Igf2, vinculado a la producción hormonal y al aumento del crecimiento de la descendencia, se expresa por vía paterna (inhibición materna), mientras que el gen del receptor del factor de crecimiento insulínico tipo 2, Igf2r, que se une a la proteína de crecimiento y, por lo tanto, ralentiza el crecimiento, se expresa por vía materna (inhibición paterna). La descendencia tiene un tamaño normal cuando ambos genes están presentes o ausentes. Cuando se inactiva experimentalmente el gen de expresión materna (Igf2r), la descendencia presenta un tamaño inusualmente grande, y cuando se inactiva experimentalmente el gen de expresión paterna (Igf2), la descendencia es inusualmente pequeña.](https://upload.wikimedia.org/wikipedia/commons/7/79/Imprt.png)](https://commons.wikimedia.org/wiki/File:Imprt.png)
 
-## fenotipo metilador de islas CpG (CIMP)
+## Fenotipo metilador de islas CpG (CIMP)
 
 -   La metilación frecuente de múltiples islas CpG y se encuentra en muchos tipos de cáncer.
 -   La hipermetilación provoca supresión de genes implicados en vías como el control del ciclo celular, la reparación del ADN, la apoptosis y la angiogénesis.
 
-[![Metilación permanente del ADN.](https://upload.wikimedia.org/wikipedia/commons/f/f5/Metilaci%C3%B3n_permanente_del_ADN.JPG)](https://commons.wikimedia.org/wiki/File:Metilaci%C3%B3n_permanente_del_ADN.JPG)
+[![Metilación permanente del ADN. MECP2 (methyl CpG binding protein 2).](https://upload.wikimedia.org/wikipedia/commons/f/f5/Metilaci%C3%B3n_permanente_del_ADN.JPG)](https://commons.wikimedia.org/wiki/File:Metilaci%C3%B3n_permanente_del_ADN.JPG)
 
 ## Hipometilación del ADN
 
 -   Ocurre activación de genes, pérdida de impronta, la reactivación de elementos transponibles e inestabilidad genómica.
 -   Se han descubierto mutaciones en genes que codifican reguladores epigenéticos de la metilación del ADN (*DNMT3A* y *TET2*) en cánceres.
-    -   Las mutaciones de *DNMT3A* son frecuentes en las **neoplasias hematológicas** y pueden servir como lesión preleucémica, mejorando la auto-renovación de las células madre hematopoyéticas (CMH).
-    -   Las mutaciones de *TET2* también son frecuentes en las **neoplasias hematológicas**, lo que dificulta la desmetilación del ADN y conduce a una mayor auto-renovación de las CMH.
+    -   Las mutaciones de *DNMT3A* (ADN metiltransferasa 3 alfa)son frecuentes en las neoplasias hematológicas y pueden servir como lesión preleucémica, mejorando la auto-renovación de las células madre hematopoyéticas (CMH).
+    -   Las mutaciones de *TET2* (methylcytosine dioxygenase 2) también son frecuentes en las neoplasias hematológicas, lo que dificulta la desmetilación del ADN y conduce a una mayor auto-renovación de las células madre hematopoyéticas.
+    -   Los inhibidores epigenéticos de las ADN metiltransferasas, como la azacitidina y la decitabina, se utilizan en la terapia para las neoplasias hematológicas.
+    -   Conducen a la desmetilación pasiva del ADN al atrapar las DNMT en el ADN durante la replicación.
 
 [![Diferencias morfológicas entre las leucemias linfoblásticas agudas (izquierda) y mieloides agudas (derecha).](https://upload.wikimedia.org/wikipedia/commons/e/e6/ALL-AML.jpg)](https://commons.wikimedia.org/wiki/File:ALL-AML.jpg)
-
--   Los **inhibidores epigenéticos de las ADN metiltransferasas**, como la **azacitidina y la decitabina**, se utilizan en la terapia para las neoplasias hematológicas. \[12\] Conducen a la **desmetilación pasiva del ADN** al atrapar las DNMT en el ADN durante la replicación. \[13\]
 
 ## Pérdida de impronta mediante alteraciones en metilaciones
 
@@ -92,7 +96,7 @@ format:
 
 [![Ejemplos de hallazgos en el síndrome de Beckwith-Wiedemann](https://upload.wikimedia.org/wikipedia/commons/8/8f/Examples_of_findings_in_Beckwith%E2%80%93Wiedemann_syndrome.png)](https://commons.wikimedia.org/wiki/File:Examples_of_findings_in_Beckwith%E2%80%93Wiedemann_syndrome.png)
 
-[![Defectos genéticos y epigenéticos subyacentes al síndrome de Beckwith-Wiedemann (SBW). (a) Configuración de la impronta de IC1 e IC2 y expresión de los genes impresos en los dos grupos 11p15 en el alelo materno (rojo) y paterno (azul) en condiciones normales. (b) LOM de IC2 en el alelo materno que conduce a una expresión reducida de CDKN1C y KCNQ1. (c) GOM de IC1 en el alelo materno que conduce a la expresión bialélica de IGF2 y al silenciamiento de H19. (d) pUPD11 que resulta en la expresión regulada a la baja de CDKN1C y H19 y la expresión bialélica de IGF2. (e) Mutaciones maternas de pérdida de función de CDKN1C que resultan en la ausencia de la proteína CDKN1C funcional.](https://upload.wikimedia.org/wikipedia/commons/6/6b/Ijms-22-03445-g001-550.webp)](https://commons.wikimedia.org/wiki/File:Ijms-22-03445-g001-550.webp)
+[![Defectos genéticos y epigenéticos subyacentes al síndrome de Beckwith-Wiedemann (SBW). (a) Configuración de la impronta de IC1 e IC2 (imprinting control regions) y expresión de los genes en los dos grupos 11p15 en el alelo materno (rojo) y paterno (azul) en condiciones normales. (b) Pérdida de metilación de IC2 en el alelo materno que conduce a una expresión reducida de CDKN1C y KCNQ1. (c) Ganancia de metilación de IC1 en el alelo materno que conduce a la expresión bialélica de IGF2 y al silenciamiento de H19. (d) pUPD11 que resulta en la expresión regulada a la baja de CDKN1C y H19 y la expresión bialélica de IGF2. (e) Mutaciones maternas de pérdida de función de CDKN1C que resultan en la ausencia de la proteína CDKN1C funcional.](https://upload.wikimedia.org/wikipedia/commons/6/6b/Ijms-22-03445-g001-550.webp){width="100%"}](https://commons.wikimedia.org/wiki/File:Ijms-22-03445-g001-550.webp)
 
 ## Mutaciones en la maquinaria de metilaciones en cáncer
 
@@ -118,7 +122,7 @@ format:
 
 ![Hematopoiesis y origen de la leucemia mieloide aguda.](https://upload.wikimedia.org/wikipedia/commons/c/cb/Diagram_showing_the_cells_in_which_AML_starts_CRUK_297.svg)
 
-## Inhibidores de metiltransferasas en tratamietno de cáncer.
+## Inhibidores de metiltransferasas en tratamiento de cáncer.
 
 -   5-azacytidine (azacitidine) and 5-aza-2′-deoxycytidine (decitabine) son inhibidores de metiltransferasas aprobados para uso clínico.
 -   Son análogos de citosina que se incorporan durante la replicación.
@@ -156,15 +160,17 @@ format:
 
 -   Esto conduce a un cambio en el paisaje epigenético con un aumento de H3K27ac.
 -   Los inhibidores de lectores epigenéticos como JQ1 inhibe la lectura de histonas acetiladas y reduce crecimiento de glioma pontino intrínseco difuso (DIPG).
--   Se están desarrollando inhibidores del componente catalítico de PRC2, EZH2, como GSK126, Tazemetostat y CPI-1205 para la terapia contra el cáncer. \[20\]
+-   Se están desarrollando inhibidores del componente catalítico de PRC2, EZH2, como GSK126, Tazemetostat y CPI-1205 para la terapia contra el cáncer.
 
 [![Imagen por resonancia magnética de una niña de 8 años con un tumor de glioma pontino intrínseco difuso (DIPG).](https://upload.wikimedia.org/wikipedia/commons/a/a3/Pediatric_diffuse_intrinsic_pontine_glioma.jpg)](https://commons.wikimedia.org/wiki/File:Pediatric_diffuse_intrinsic_pontine_glioma.jpg)
 
 ## Acetilación y Desacetilación de Histonas en Cánceres
 
--   Las **histonas acetiltransferasas (HAT)** agregan grupos acetilo (asociados con la transcripción activa), y las **histonas desacetilasas (HDAC)** los eliminan (asociadas con la represión génica).
--   Un **desequilibrio entre la acetilación y la desacetilación** puede afectar la expresión génica en el cáncer.
--   Las **alteraciones de las HAT** (sobreexpresión, subexpresión, mutaciones) se han implicado en la tumorigénesis.
+-   Las histonas acetiltransferasas (HAT) agregan grupos acetilo (asociados con la transcripción activa), y las histonas desacetilasas (HDAC) los eliminan (asociadas con la represión génica).
+-   Un desequilibrio entre la acetilación y la desacetilación puede afectar la expresión génica en el cáncer.
+-   Las alteraciones de las HAT (sobreexpresión, subexpresión, mutaciones) se han implicado en la tumorigénesis.
+
+[![Acetilación y desacetilación de histonas.](https://upload.wikimedia.org/wikipedia/commons/d/d0/Histone_acetylation_and_deacetylation.jpg)](https://commons.wikimedia.org/wiki/File:Histone_acetylation_and_deacetylation.jpg)
 
 ## Acetilación y Desacetilación de Histonas en Cánceres
 
@@ -179,7 +185,7 @@ format:
 -   Las alteraciones de las histonas desacetilasas (HDAC) están relacionadas con el desarrollo tumoral.
 -   Los inhibidores de HDAC (SAHA/vorinostat) han mostrado efectos antitumorales y algunos están aprobados por la FDA para el tratamiento del cáncer.
 
-[![Mecanismo de acción propuesto del vorinostat para inducir la detención del ciclo celular tumoral y la apoptosis \[4\]. HDAC, histona desacetilasa; TS, timidilato sintasa; VEGF, factor de crecimiento endotelial vascular; 17-AAG, 17-alilamino-17-desmetoxigeldanamicina; 5-FU, 5-fluorouracilo. Reimpreso con autorización de Macmillan Publishers Ltd: Richon VM. Biología del cáncer: mecanismo de acción antitumoral del vorinostat (ácido suberoilanilida hidroxámico), un nuevo inhibidor de la histona desacetilasa. Br J Cancer 2006; 95 (Supl. 1): S2–S6.](https://upload.wikimedia.org/wikipedia/commons/b/bb/E1g8hh6q.png)](https://commons.wikimedia.org/wiki/File:E1g8hh6q.png)
+[![Mecanismo de acción propuesto del vorinostat para inducir la detención del ciclo celular tumoral y la apoptosis. HDAC, histona desacetilasa; TS, timidilato sintasa; VEGF, factor de crecimiento endotelial vascular; 17-AAG, 17-alilamino-17-desmetoxigeldanamicina; 5-FU, 5-fluorouracilo. Reimpreso con autorización de Macmillan Publishers Ltd: Richon VM. Biología del cáncer: mecanismo de acción antitumoral del vorinostat (ácido suberoilanilida hidroxámico), un nuevo inhibidor de la histona desacetilasa. Br J Cancer 2006; 95 (Supl. 1): S2–S6.](https://upload.wikimedia.org/wikipedia/commons/b/bb/E1g8hh6q.png)](https://commons.wikimedia.org/wiki/File:E1g8hh6q.png)
 
 ## Factores de Remodelación de la Cromatina y Cáncer
 
@@ -191,14 +197,14 @@ format:
 ## Factores de Remodelación de la Cromatina y Cáncer
 
 -   Las mutaciones en los genes que codifican SWI/SNF son frecuentes en el cáncer.
--   Mutaciones en componentes de SWI/SNF las hacen incapaces de oponerse a la acción represiva de proteínas PcG.
+-   Mutaciones en componentes de SWI/SNF las hacen incapaces de oponerse a la acción represiva de proteínas del grupo polycomb (PcG).
 
-[![Esta figura muestra la organización de la subfamilia SWI/SNF según sus dominios. Contiene un dominio HSA, un dominio post-HSA, dos lóbulos similares a Rec-A (lóbulos 1 y 2), así como un dominio bromo.](https://upload.wikimedia.org/wikipedia/commons/c/cc/Domain_Organization_of_the_SWI-SNF_Subfamily.jpg)](https://commons.wikimedia.org/wiki/File:Domain_Organization_of_the_SWI-SNF_Subfamily.jpg)
+[![Esta figura muestra la organización de la subfamilia SWI/SNF según sus dominios. Contiene un dominio HSA, un dominio post-HSA, dos lóbulos similares a Rec-A (lóbulos 1 y 2), así como un bromodominio.](https://upload.wikimedia.org/wikipedia/commons/c/cc/Domain_Organization_of_the_SWI-SNF_Subfamily.jpg)](https://commons.wikimedia.org/wiki/File:Domain_Organization_of_the_SWI-SNF_Subfamily.jpg)
 
 ## Factores de Remodelación de la Cromatina y Cáncer
 
 -   Los complejos de imitación SWI/SNF (ISWI), RSF1 y NoRC, también están implicados en el cáncer.
-    -   La sobreexpresión de RSF1 promueve la quimiorresistencia.
+    -   La sobreexpresión de RSF1 (Remodeling and Spacing Factor 1) promueve la quimiorresistencia.
     -   BAZ2A (parte de NoRC) se sobreexpresa en el cáncer de próstata y se asocia con la metástasis.
 
 [![Cáncer de próstata.](https://upload.wikimedia.org/wikipedia/commons/4/4e/Diagram_showing_T1-3_stages_of_prostate_cancer_CRUK_278.svg)](https://commons.wikimedia.org/wiki/File:Diagram_showing_T1-3_stages_of_prostate_cancer_CRUK_278.svg)
