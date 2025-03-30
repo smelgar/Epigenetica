@@ -1,0 +1,256 @@
+---
+title: "Epigenética y Metabolismo"
+author: "Sergio Melgar"
+format: 
+  revealjs:
+    scrollable: true
+editor: visual
+---
+
+## La interacción entre la epigenética y el metabolismo {.scrollable}
+
+-   La mayoría de las enzimas modificadoras de la cromatina utilizan metabolitos como cofactores.
+
+-   El metabolismo celular puede influir en la capacidad de la célula para escribir o borrar marcas de cromatina.
+
+[![Enzimas modificadoras de cromatina](https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/NucleosomeKG.jpg/310px-NucleosomeKG.jpg)](https://commons.wikimedia.org/wiki/File:NucleosomeKG.jpg)
+
+------------------------------------------------------------------------
+
+-   El epigenoma actúa como sensor de toda la red metabólica, regulando la expresión genética.
+
+-   Las concentraciones de metabolitos, influenciadas por la ingesta dietética, pueden afectar la expresión genética al modular las vías epigenéticas.
+
+-   Algunos metabolitos son cofactores de las enzimas modificadoras de la cromatina.
+
+    [![Modelo general propuesto para priming epigenético.](https://upload.wikimedia.org/wikipedia/commons/5/58/Epigenetic_priming_model.png)](https://commons.wikimedia.org/wiki/File:Epigenetic_priming_model.png)
+
+------------------------------------------------------------------------
+
+-   Muchas enzimas modificadoras de la cromatina dependen de intermediarios del metabolismo celular como cofactores.
+
+-   Estos cofactores incluyen:
+
+1.  Acetil-Coenzima A (Acetil-CoA)
+2.  Nicotinamida Adenina Dinucleótido (NAD)
+3.  S -adenosilmetionina (SAM)
+4.  Flavina adenina dinucleótido (FAD)
+5.  α-cetoglutarato (αKG)
+
+-   La disponibilidad de estos metabolitos afecta directamente la actividad de las enzimas epigenéticas.
+
+[![Ciclo de Krebs](https://upload.wikimedia.org/wikipedia/commons/a/af/Ciclo_de_Krebs-es.svg){fig-alt="Ciclo de Krebs"}](https://commons.wikimedia.org/wiki/File:Ciclo_de_Krebs-es.svg)
+
+## Acetil-Coenzima A
+
+-   La Acetil-Coenzima A (Acetil-CoA) es el cofactor de histona acetiltransferasas (HATs).
+
+-   La acetil-CoA es un metabolito central que vincula el metabolismo con la acetilación de histonas.
+
+[![Las enzimas histona acetiltransferasa (HAT) y histona desacetilasa (HDAC) regulan la compactación de la cromatina.](https://upload.wikimedia.org/wikipedia/commons/b/b2/Closed_and_relaxed_chromatin.jpg)](https://commons.wikimedia.org/wiki/File:Closed_and_relaxed_chromatin.jpg)
+
+## Acetil-Coenzima A
+
+Se produce durante el metabolismo de la glucosa y la descomposición de los lípidos.
+
+Los cambios en los niveles de acetil-CoA pueden afectar la acetilación de histonas y, en consecuencia, la expresión genética.
+
+[![Acetil-CoA.](https://upload.wikimedia.org/wikipedia/commons/2/26/Acetil-CoA.svg){fig-alt="Acetil-CoA."}](https://commons.wikimedia.org/wiki/File:Acetil-CoA.svg)
+
+[![Glucólisis.](https://upload.wikimedia.org/wikipedia/commons/0/0b/Glycolysis_metabolic_pathway.svg)](https://commons.wikimedia.org/wiki/File:Glycolysis_metabolic_pathway.svg)
+
+[![Piruvato a acetil-CoA.](https://upload.wikimedia.org/wikipedia/commons/d/d0/09_10PyruvateToAcetylCoA-L.jpg)](https://commons.wikimedia.org/wiki/File:09_10PyruvateToAcetylCoA-L.jpg)
+
+[![La beta oxidación de ácidos grasos produce acetil-CoA.](https://upload.wikimedia.org/wikipedia/commons/3/3e/Beta-Oxidation4.svg)](https://commons.wikimedia.org/wiki/File:Beta-Oxidation4.svg)
+
+[![Metabolismo de acetil-CoA en células de mamíferos. Trabajo basado en la Fig. 9.2 de Introduction to Epigenetics \[Internet\]. Paro R, Grossniklaus U, Santoro R, et al. Cham (CH): Springer; 2021.](https://upload.wikimedia.org/wikipedia/commons/a/a2/Metabolismo_de_Acetil-Coa.svg)](https://commons.wikimedia.org/wiki/File:Metabolismo_de_Acetil-Coa.svg)
+
+## Acetil-Coenzima A es cofactor de las histona acetiltransferasas (HATs)
+
+-   Las histona acetiltransferasas (HATs) usan acetil-CoA como cofactor.
+
+-   HATs tipo A son enzimas citoplasmáticas que acetilan histonas libres recién sintetizadas.
+
+-   HAts tipo B son enzimas nucleares que acetilan histonas y otras proteínas no istonas en el núcleo.
+
+[![La acetilación o desacetilación de histonas altera la estructura de la cromatina para crear eucromatina o heterocromatina. El estado dinámico de la acetilación/desacetilación de histonas está regulado por las enzimas histona acetiltransferasa (HAT) e histona desacetilasa (HDAC). La acetilación/desacetilación (la adición o eliminación de Ac en sitios específicos de las colas de histonas) altera la accesibilidad de la cromatina y permite o impide que las proteínas de unión al ADN interactúen con ella para activar o reprimir la transcripción génica.](https://upload.wikimedia.org/wikipedia/commons/b/b2/Closed_and_relaxed_chromatin.jpg)](https://commons.wikimedia.org/wiki/File:Closed_and_relaxed_chromatin.jpg)
+
+## Acetil-CoA en el ciclo metabólico de las levaduras.
+
+En la levadura, los niveles de acetil-CoA fluctúan durante los ciclos metabólicos de la levadura (YMC), lo que influye en los genes relacionados con el crecimiento.
+
+-   Las levaduras muestran ciclos metabólicos sincronizados (YMC) en un ambiente de nutrientes limitados.
+
+-   Ciclo metabólico de levadura (YMC) posee 3 fases:
+
+    -   **OX (oxidativa):** Respiración máxima y activación de genes de crecimiento.
+
+    -   **RB (reductiva y constructiva):** Menos consumo de oxígeno; comienza la división celular.
+
+    -   **RC (reductiva y de carga):** Células en reposo que expresan genes anti-crecimiento activos.
+
+-   La acetil-CoA aumenta en la transición RC→OX, activando genes de crecimiento.
+
+-   En ese punto, la enzima SAGA acetila histonas, permitiendo rápida transcripción de genes relacionados con el crecimiento.
+
+-   La acetil-CoA sintasa nuclear vincula metabolismo con regulación génica.
+
+## Acetil Co-A
+
+En los mamíferos, los niveles elevados de acetil-CoA promueven el crecimiento y la replicación celular a expensas de la diferenciación.
+
+La producción de acetil-CoA se regula negativamente durante la diferenciación de las células madre embrionarias y se reduce la acetilación de histonas.
+
+Otro ejemplo es en adipositos, en donde la enzima ATP citrato liasa (ACL), que convierte el citrato derivado de la glucosa en acetil-CoA, es necesaria para aumentar la acetilación de histonas.
+
+[![Regulación de la glucólisis y el Ciclo de Krebs.](https://upload.wikimedia.org/wikipedia/commons/d/de/Regulation_of_glycolysis_and_TCA_cycle_by_HIF.jpg)](https://commons.wikimedia.org/wiki/File:Regulation_of_glycolysis_and_TCA_cycle_by_HIF.jpg)
+
+[![ATP citrato liasa.](https://upload.wikimedia.org/wikipedia/commons/9/9a/ATP_citrato_liasa.svg)](https://commons.wikimedia.org/wiki/File:ATP_citrato_liasa.svg)
+
+## Nicotinamide Adenine Dinucleotide (NAD)
+
+-   El NAD+ es una molécula clave en el metabolismo celular
+
+    -   Funciona como cofactor en reacciones redox y como cosustrato para enzimas reguladoras.
+
+-   Tres grupos de enzimas dependen de NAD+:
+
+    -   Sirtuinas (SIRTs): Enzimas reguladoras de procesos celulares
+
+    -   PARPs/ARTs: Poli(ADP-ribosa) polimerasas y transferasas
+
+    -   Sintasas de cADPR: Generan ADP-ribosa cíclica
+
+[![Interacción entre la regulación metabólica y epigenética. Los metabolitos de diferentes vías metabólicas participan en la regulación epigenética como cofactores. Las dioxigenasas como las HMT y las DNMT utilizan SAM como donante de grupos metilo y las reacciones de desmetilación inversa utilizan αKG o FAD para recibir los grupos metilo. La acetilación de las histonas se logra mediante las HAT, que transfieren grupos acetilo desde la acetil-CoA. Para eliminar el grupo acetilo de las proteínas histonas, se utiliza NAD+ como cofactor para apoyar las actividades de SIRT que pertenecen a las histonas desacetilasas (HDAC). SAM, S-adenosil metionina; SAH, S-adenosil homocisteína; NAD+, nicotinamida adenina dinucleótido oxidado; NAM, nicotinamida; FAD, flavina adenina dinucleótido; αKG, α-cetoglutarato; HMT, histona metiltransferasa; HAT, histona acetiltransferasa; y SIRT, sirtuina.](https://upload.wikimedia.org/wikipedia/commons/7/70/Crosstalk_between_metabolic_and_epigenetic_regulation.jpg)](https://commons.wikimedia.org/wiki/File:Crosstalk_between_metabolic_and_epigenetic_regulation.jpg)
+
+##  **Fuentes y síntesis de NAD+**
+
+-   **El NAD+ se sintetiza a partir de:**
+
+    -   Ácido nicotínico (Vitamina B3)
+
+    -   Nicotinamida
+
+    -   Triptófano
+
+    -   Ribósido de nicotinamida (NR)
+
+-   **Fuente principal:** Ácido nicotínico (dieta).
+
+[![Biosíntesis y vías de rescate en el metabolismo de NAD+ y NADP+. Creado con ACD/ChemSketch 10.0 e Inkscape. Leyenda Trp: triptófano QA: ácido quinolínico Na: ácido nicotínico NaMN: mononucleótido de ácido nicotínico NaAD: dinucleótido de adenina y ácido nicotínico NAD: dinucleótido de nicotinamida y adenina NADP: fosfato de dinucleótido de nicotinamida y adenina NR: ribósido de nicotinamida NMN: mononucleótido de nicotinamida Nam: nicotinamida ADP-ribosa: ribosa de difosfato de adenosina.](https://upload.wikimedia.org/wikipedia/commons/e/e3/NAD_metabolism.svg)](https://commons.wikimedia.org/wiki/File:NAD_metabolism.svg)
+
+## NAD como cofactor de sirtuinas.
+
+-   **Enzimas dependientes de NAD+**
+
+    -   Remueven grupos acilo de proteínas (ej. histonas)
+
+-   **7 sirtuinas en mamíferos (SIRT1-7)**
+
+    -   **Nucleares:** SIRT1, SIRT6, SIRT7 (regulación génica)
+
+    -   **Citoplasmática/nuclear:** SIRT2 (control ciclo celular)
+
+    -   **Mitocondriales:** SIRT3-5 (metabolismo oxidativo)
+
+-   **Relación con longevidad:**
+
+    -   Activadas por restricción calórica
+
+    -   Niveles de NAD+ ↓ con edad → actividad sirtuinas ↓
+
+    -   Sobreexpresión de SIRT1/SIRT6 retrasa envejecimiento en modelos animales
+
+-   **Funciones clave:**
+
+    -   Desacetila histonas (H3K9ac, H3K14ac y H4K16ac) y factores de transcripción (TP53, NF-kB, PGC-1a y FOXO3a)
+
+    -   Regula reloj circadiano vía NAMPT/NAD+
+
+    -   Aumenta con restricción calórica → mejora metabolismo
+
+-   **SIRT6:**
+
+    -   Modula los telómeros (desacetila H3K9ac)
+
+    -   Deficiencia → senescencia prematura (síndrome de Werner)
+
+-   **Blancos para:**
+
+    -   Enfermedades neurodegenerativas
+
+    -   Cáncer y enfermedades cardiovasculares
+
+-   **Activadores:** Resveratrol (SIRT1)
+
+[![Resveratrol.](https://upload.wikimedia.org/wikipedia/commons/0/09/Resveratrol.png)](https://commons.wikimedia.org/wiki/File:Resveratrol.png)
+
+## NAD como cofactor de PARPs.
+
+-   **17 enzimas PARP** identificadas
+
+-   **PARP1 y PARP2** son las más estudiadas
+
+    -   Polimerizan ADP-ribosa (PAR) desde NAD+
+
+    -   Modifican proteínas con cadenas de PAR
+
+-   **Funciones clave:**
+
+    -   Descondensa cromatina (ej. en respuesta a estrés)
+
+    -   Regula transcripción génica
+
+    -   Antagoniza histona H1 en promotores activos
+
+-   **Activación fuerte por roturas de ADN**
+
+    -   Consume grandes cantidades de NAD+
+
+    -   Compite con SIRT1 por NAD+ (Km similar)
+
+-   **Efectos metabólicos opuestos entre PARP y SIRT1:**
+
+    -   **Ratón knockout de PARP1** → ↑ SIRT1 → ↑ metabolismo mitocondrial
+
+    -   **Inhibidores de PARP** → ↑ NAD+ nuclear → ↑ actividad SIRT1 y son eficaces en tumores con mutaciones BRCA (ej. cáncer de ovario/mama)
+
+[![PARP1 activado por daño del ADN.](https://upload.wikimedia.org/wikipedia/commons/a/af/DNA_DSB_TOP2B_PARP-1_complex_with_NHEJ_enzymes.jpg)](https://commons.wikimedia.org/wiki/File:DNA_DSB_TOP2B_PARP-1_complex_with_NHEJ_enzymes.jpg)
+
+## S-adenosilmetionina (SAM) y metilación
+
+-   La SAM es un importante donante de grupos metilo en la célula.
+
+-   Es crucial para la metilación del ADN, la metilación de histonas y otros procesos biosintéticos.
+
+-   La SAM se produce a través de la vía del metabolismo de un carbono, que integra el estado nutricional basado en aminoácidos, glucosa y vitaminas.
+
+-   Nutrientes como el folato, la serina y la glicina impulsan el metabolismo de un carbono.
+
+-   La SAM se convierte en S-adenosilhomocisteína (SAH) tras donar un grupo metilo, y la SAH es un potente inhibidor de todas las metiltransferasas.
+
+-   El equilibrio entre la producción y el consumo de SAM puede regular diferentes eventos de metilación.
+
+-   
+
+[![Metabolismo de un carbono.](https://upload.wikimedia.org/wikipedia/commons/2/2e/Metabolismo_1_C.svg)](https://commons.wikimedia.org/wiki/File:Metabolismo_1_C.svg)
+
+## SAM y metilación: El modelo del ratón agutí: dieta y epigenética.
+
+El modelo del ratón agutí demuestra cómo la dieta y la nutrición pueden afectar el epigenoma.
+
+El alelo amarillo viable agutí (A vy) se debe a la inserción de un retrotransposón, lo que resulta en un pelaje amarillo, obesidad y predisposición al cáncer.
+
+La metilación del ADN en el retrotransposón controla la expresión del gen agutí.
+
+La suplementación dietética materna con donantes de metilo como vitamina B12, ácidofólico, colina y betaína que aumentan la producción de SAM, aumenta la metilación en el retrotransposón, lo que resulta en un pelaje de color agutí de tipo silvestre en la descendencia.
+
+[![[Ratones agutí viable amarillo (A^vy^).](https://pmc.ncbi.nlm.nih.gov/articles/PMC2822875/#:~:text=The%20viable%20yellow%20agouti%20(A,on%20the%20fetal%20epigenome%20(Fig.)](https://upload.wikimedia.org/wikipedia/commons/4/4d/Agouti_Mice.jpg)](https://commons.wikimedia.org/wiki/File:Agouti_Mice.jpg)
+
+## **α-Cetoglutarato (αKG) y desmetilación**
+
+αKG es un cofactor de las enzimas dioxigenasas involucradas en la desmetilación del ADN y las histonas \[7, 14\]. La proporción de αKG a succinato afecta múltiples modificaciones de la cromatina \[7\]. Las mutaciones en IDH1/2 resultan en la producción de 2-hidroxiglutarato (2HG), un oncometabolito \[7, 14\]. El 2HG inhibe las enzimas dioxigenasas (p. ej., TET y KDM), lo que altera la desmetilación del ADN y las histonas \[7, 14\]. Esto puede promover la tumorogénesis y provocar cáncer \[7, 14\]. Oncometabolitos y Cáncer
+
+Los oncometabolitos son metabolitos cuya cantidad aumenta en los tumores \[14\]. Pueden alterar la cromatina y las vías epigenéticas que conducen al cáncer \[14\]. El 2HG es un oncometabolito resultante de la mutación del gen IDH1 o IDH2 \[14\]. Conclusión
+
+El epigenoma actúa como sensor de toda la red metabólica \[3, 4\]. Los metabolitos actúan como cofactores para las enzimas modificadoras de la cromatina \[3, 4\]. Los estímulos ambientales y fisiológicos pueden alterar las concentraciones de metabolitos, lo que a su vez puede afectar la expresión génica \[4\]. La biosíntesis de metabolitos localizada en la cromatina modula la expresión de genes cercanos al proporcionar cofactores para las enzimas epigenéticas \[4, 13\]. La dieta materna y los factores ambientales pueden afectar el fenotipo de la descendencia a través de mecanismos epigenéticos \[12, 14\]. Los oncometabolitos pueden alterar la cromatina y las vías epigenéticas, lo que puede provocar cáncer \[14\]. Esta diapositiva ofrece una visión general completa de los conceptos clave del capítulo "Epigenética y Metabolismo", destacando la interacción entre el metabolismo celular y la regulación epigenética. Los conceptos clave están en negrita para enfatizarlos.
