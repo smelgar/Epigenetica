@@ -247,9 +247,85 @@ La suplementación dietética materna con donantes de metilo como vitamina B12, 
 
 [![[Ratones agutí viable amarillo (A^vy^).](https://pmc.ncbi.nlm.nih.gov/articles/PMC2822875/#:~:text=The%20viable%20yellow%20agouti%20(A,on%20the%20fetal%20epigenome%20(Fig.)](https://upload.wikimedia.org/wikipedia/commons/4/4d/Agouti_Mice.jpg)](https://commons.wikimedia.org/wiki/File:Agouti_Mice.jpg)
 
+### **FAD - Cofactor clave en epigenética**
+
+-   Derivado de riboflavina (Vitamina B2)
+
+-   **Síntesis:**
+
+    -   Mitocondria/citoplasma
+
+    -   Riboflavina → FMN → FAD (requiere ATP)
+
+<!-- -->
+
+-   **Funciones:**
+
+    -   Ciclo de Krebs (succinato deshidrogenasa)
+
+    -   Cofactor de flavoenzimas (oxidación/reducción)
+
+![Síntesis de FAD a partir de riboflavina.](https://upload.wikimedia.org/wikipedia/commons/d/d7/FAD_Synthesis.png){alt="Síntesis de FAD a partir de riboflavina."}
+
+### **FAD en el núcleo**
+
+-   **Enzimas nucleares:**
+
+    -   FAD sintasa/pirofosfatasa (equilibrio FAD+/FADH₂)
+
+-   **Única enzima epigenética que usa FAD:**
+
+    -   **LSD1** (desmetilasa de histonas)
+
+<!-- -->
+
+-   **Actividad dependiente de FAD:**
+
+    -   Desmetila H3K4me1/me2 (actividad represiva de genes)
+
+    -   También actúa sobre H3K9 y p53
+
+-   **Productos de reacción:**
+
+    -   Formaldehído + FADH₂ → potencial estrés oxidativo
+
+[![Mecanismos de desmetilación de lisina.](https://upload.wikimedia.org/wikipedia/commons/d/d4/Lysine_demethylation.svg)](https://commons.wikimedia.org/wiki/File:Lysine_demethylation.svg)
+
+### **LSD1 en metabolismo y enfermedad**
+
+-   **Regulación metabólica:**
+
+    -   Reprime genes de gasto energético (ej. PGC1α)
+
+    -   ↑ LSD1 en adipocitos → ↑ actividad mitocondrial
+
+-   **Implicaciones clínicas:**
+
+    -   Inhibidores de LSD1 en ensayos para leucemia
+
+    -   Obesidad: LSD1 promueve "pardeamiento" adiposo
+
+### **FAD y homeostasis celular**
+
+-   **Déficit de FAD → enfermedades neurológicas/cáncer**
+
+-   **Conexión metabolismo-epigenética:**
+
+    -   Niveles de FAD regulan actividad de LSD1
+
+    -   LSD1 vincula estado energético y expresión génica
+
 ## **α-Cetoglutarato (αKG) y desmetilación**
 
-αKG es un cofactor de las enzimas dioxigenasas involucradas en la desmetilación del ADN y las histonas \[7, 14\]. La proporción de αKG a succinato afecta múltiples modificaciones de la cromatina \[7\]. Las mutaciones en IDH1/2 resultan en la producción de 2-hidroxiglutarato (2HG), un oncometabolito \[7, 14\]. El 2HG inhibe las enzimas dioxigenasas (p. ej., TET y KDM), lo que altera la desmetilación del ADN y las histonas \[7, 14\]. Esto puede promover la tumorogénesis y provocar cáncer \[7, 14\]. Oncometabolitos y Cáncer
+αKG es un cofactor de las enzimas dioxigenasas involucradas en la desmetilación del ADN y las histonas.
+
+La proporción de αKG a succinato afecta múltiples modificaciones de la cromatina.
+
+Las mutaciones en isocitrato deshidrogenasa IDH1/2 resultan en la producción de 2-hidroxiglutarato (2HG), un oncometabolito.
+
+El 2HG inhibe las enzimas dioxigenasas (p. ej., TET y KDM), lo que altera la desmetilación del ADN y las histonas \[7, 14\]. Esto puede promover la tumorogénesis y provocar cáncer \[7, 14\]. Oncometabolitos y Cáncer
+
+[![Metabolismo del α-cetoglutarato y epigenética.](https://upload.wikimedia.org/wikipedia/commons/3/37/Alfa_ceto_glutarato_y_epigen%C3%A9tica.svg)](https://commons.wikimedia.org/wiki/File:Alfa_ceto_glutarato_y_epigen%C3%A9tica.svg)
 
 Los oncometabolitos son metabolitos cuya cantidad aumenta en los tumores \[14\]. Pueden alterar la cromatina y las vías epigenéticas que conducen al cáncer \[14\]. El 2HG es un oncometabolito resultante de la mutación del gen IDH1 o IDH2 \[14\]. Conclusión
 
