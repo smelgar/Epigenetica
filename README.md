@@ -5,8 +5,5 @@
 
 - [Epigenética y Cáncer](https://smelgar.github.io/Epigenetica/Epigen%C3%A9tica%20y%20c%C3%A1ncer.html#/title-slide)
 
-- [Dinámica de la cromatina](https://smelgar.github.io/Epigenetica/Presentación%20epigenética%20Núcleo%20Dinámico.html)
-
-- [Memoria celular](https://smelgar.github.io/Epigenetica/Memoria%20celular.html)
-
+- [Epigenética y Metabolismo](https://smelgar.github.io/Epigenetica/epigen%C3%A9tica%20y%20metabolismo.html#/title-slide)
 
