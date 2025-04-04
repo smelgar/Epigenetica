@@ -379,3 +379,9 @@ Otro ejemplo es en adipocitos, en donde la enzima ATP citrato liasa (ACL), que c
 -   Los oncometabolitos pueden alterar la cromatina y las vías epigenéticas, lo que puede provocar cáncer.
 
 -   Ejercicios y restricción calórica aumentan niveles de NAD y consecuentemente activan las sirtuinas implicadas en longevidad.
+
+##  {.center}
+
+::: {#title-slide .center}
+**Gracias**
+:::
