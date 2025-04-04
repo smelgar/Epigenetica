@@ -354,9 +354,15 @@ Otro ejemplo es en adipocitos, en donde la enzima ATP citrato liasa (ACL), que c
 
 [![Metabolismo del α-cetoglutarato y epigenética. Basado en la fig 9.11 de Introduction to Epigenetics \[Internet\]. Paro R, Grossniklaus U, Santoro R, et al. Cham (CH): Springer; 2021.](https://upload.wikimedia.org/wikipedia/commons/3/37/Alfa_ceto_glutarato_y_epigen%C3%A9tica.svg)](https://commons.wikimedia.org/wiki/File:Alfa_ceto_glutarato_y_epigen%C3%A9tica.svg#%7B%7Bint%3Afiledesc%7D%7D)
 
-[![Oncometabolito 2-hidroxiglutarato.](https://upload.wikimedia.org/wikipedia/commons/d/dc/Alpha-hydroxyglutaric_acid.png){width="100%"}](https://commons.wikimedia.org/wiki/File:Alpha-hydroxyglutaric_acid.png)
+::::: columns
+::: {.column width="50%"}
+![Oncometabolito 2-hidroxiglutarato.](https://upload.wikimedia.org/wikipedia/commons/d/dc/Alpha-hydroxyglutaric_acid.png){alt="Oncometabolito 2-hidroxiglutarato." width="100%"}
+:::
 
-[![α-cetoglutarato](https://upload.wikimedia.org/wikipedia/commons/7/79/2-oxopentanedioic_acid_200.svg){width="100%"}](https://commons.wikimedia.org/wiki/File:2-oxopentanedioic_acid_200.svg)
+::: {.column width="50%"}
+![α-cetoglutarato](https://upload.wikimedia.org/wikipedia/commons/7/79/2-oxopentanedioic_acid_200.svg){alt="α-cetoglutarato" width="100%"}
+:::
+:::::
 
 ## Conclusiones
 
