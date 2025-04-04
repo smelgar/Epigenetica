@@ -1,9 +1,16 @@
 ---
 title: "Epigenética y Metabolismo"
 author: "Sergio Melgar"
+lang: es-MX
 format: 
   revealjs:
+    slide-number: true
+    show-slide-number: all
+    preview-links: true
     scrollable: true
+    plugins: [notes, chalkboard]
+    chalkboard:
+       src: chalkboard.json
 editor: visual
 ---
 
@@ -13,7 +20,7 @@ editor: visual
 
 -   El metabolismo celular puede influir en la capacidad de la célula para escribir o borrar marcas de cromatina.
 
-[![Enzimas modificadoras de cromatina](https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/NucleosomeKG.jpg/310px-NucleosomeKG.jpg)](https://commons.wikimedia.org/wiki/File:NucleosomeKG.jpg)
+[![Enzimas modificadoras de cromatina](https://upload.wikimedia.org/wikipedia/commons/5/57/NucleosomeKG.jpg)](https://commons.wikimedia.org/wiki/File:NucleosomeKG.jpg)
 
 ------------------------------------------------------------------------
 
@@ -71,7 +78,7 @@ Los cambios en los niveles de acetil-CoA pueden afectar la acetilación de histo
 
 -   HATs tipo A son enzimas citoplasmáticas que acetilan histonas libres recién sintetizadas.
 
--   HAts tipo B son enzimas nucleares que acetilan histonas y otras proteínas no istonas en el núcleo.
+-   HAts tipo B son enzimas nucleares que acetilan histonas y otras proteínas no histonas en el núcleo.
 
 [![La acetilación o desacetilación de histonas altera la estructura de la cromatina para crear eucromatina o heterocromatina. El estado dinámico de la acetilación/desacetilación de histonas está regulado por las enzimas histona acetiltransferasa (HAT) e histona desacetilasa (HDAC). La acetilación/desacetilación (la adición o eliminación de Ac en sitios específicos de las colas de histonas) altera la accesibilidad de la cromatina y permite o impide que las proteínas de unión al ADN interactúen con ella para activar o reprimir la transcripción génica.](https://upload.wikimedia.org/wikipedia/commons/b/b2/Closed_and_relaxed_chromatin.jpg)](https://commons.wikimedia.org/wiki/File:Closed_and_relaxed_chromatin.jpg)
 
@@ -101,7 +108,7 @@ En los mamíferos, los niveles elevados de acetil-CoA promueven el crecimiento y
 
 La producción de acetil-CoA se regula negativamente durante la diferenciación de las células madre embrionarias y se reduce la acetilación de histonas.
 
-Otro ejemplo es en adipositos, en donde la enzima ATP citrato liasa (ACL), que convierte el citrato derivado de la glucosa en acetil-CoA, es necesaria para aumentar la acetilación de histonas.
+Otro ejemplo es en adipocitos, en donde la enzima ATP citrato liasa (ACL), que convierte el citrato derivado de la glucosa en acetil-CoA, es necesaria para aumentar la acetilación de histonas.
 
 [![Regulación de la glucólisis y el Ciclo de Krebs.](https://upload.wikimedia.org/wikipedia/commons/d/de/Regulation_of_glycolysis_and_TCA_cycle_by_HIF.jpg)](https://commons.wikimedia.org/wiki/File:Regulation_of_glycolysis_and_TCA_cycle_by_HIF.jpg)
 
@@ -123,15 +130,15 @@ Otro ejemplo es en adipositos, en donde la enzima ATP citrato liasa (ACL), que c
 
 [![Interacción entre la regulación metabólica y epigenética. Los metabolitos de diferentes vías metabólicas participan en la regulación epigenética como cofactores. Las dioxigenasas como las HMT y las DNMT utilizan SAM como donante de grupos metilo y las reacciones de desmetilación inversa utilizan αKG o FAD para recibir los grupos metilo. La acetilación de las histonas se logra mediante las HAT, que transfieren grupos acetilo desde la acetil-CoA. Para eliminar el grupo acetilo de las proteínas histonas, se utiliza NAD+ como cofactor para apoyar las actividades de SIRT que pertenecen a las histonas desacetilasas (HDAC). SAM, S-adenosil metionina; SAH, S-adenosil homocisteína; NAD+, nicotinamida adenina dinucleótido oxidado; NAM, nicotinamida; FAD, flavina adenina dinucleótido; αKG, α-cetoglutarato; HMT, histona metiltransferasa; HAT, histona acetiltransferasa; y SIRT, sirtuina.](https://upload.wikimedia.org/wikipedia/commons/7/70/Crosstalk_between_metabolic_and_epigenetic_regulation.jpg)](https://commons.wikimedia.org/wiki/File:Crosstalk_between_metabolic_and_epigenetic_regulation.jpg)
 
-##  **Fuentes y síntesis de NAD+**
+## **Fuentes y síntesis de NAD+**
 
 -   **El NAD+ se sintetiza a partir de:**
 
-    -   Ácido nicotínico (Vitamina B3)
+    -   Ácido nicotínico (Vitamina B3) (Na)
 
-    -   Nicotinamida
+    -   Nicotinamida (Nam)
 
-    -   Triptófano
+    -   Triptófano (Trp)
 
     -   Ribósido de nicotinamida (NR)
 
@@ -183,6 +190,8 @@ Otro ejemplo es en adipositos, en donde la enzima ATP citrato liasa (ACL), que c
 
 -   **Activadores:** Resveratrol (SIRT1)
 
+![Interacción entre la regulación metabólica y epigenética. Los metabolitos de diferentes vías metabólicas participan en la regulación epigenética como cofactores. Las dioxigenasas como las HMT y las DNMT utilizan SAM como donante de grupos metilo y las reacciones de desmetilación inversa utilizan αKG o FAD para recibir los grupos metilo. La acetilación de las histonas se logra mediante las HAT, que transfieren grupos acetilo desde la acetil-CoA. Para eliminar el grupo acetilo de las proteínas histonas, se utiliza NAD+ como cofactor para apoyar las actividades de SIRT que pertenecen a las histonas desacetilasas (HDAC). SAM, S-adenosil metionina; SAH, S-adenosil homocisteína; NAD+, nicotinamida adenina dinucleótido oxidado; NAM, nicotinamida; FAD, flavina adenina dinucleótido; αKG, α-cetoglutarato; HMT, histona metiltransferasa; HAT, histona acetiltransferasa; y SIRT, sirtuina.](https://upload.wikimedia.org/wikipedia/commons/7/70/Crosstalk_between_metabolic_and_epigenetic_regulation.jpg)
+
 [![Resveratrol.](https://upload.wikimedia.org/wikipedia/commons/0/09/Resveratrol.png)](https://commons.wikimedia.org/wiki/File:Resveratrol.png)
 
 ## NAD como cofactor de PARPs.
@@ -231,23 +240,21 @@ Otro ejemplo es en adipositos, en donde la enzima ATP citrato liasa (ACL), que c
 
 -   El equilibrio entre la producción y el consumo de SAM puede regular diferentes eventos de metilación.
 
--   
-
 [![Metabolismo de un carbono.](https://upload.wikimedia.org/wikipedia/commons/2/2e/Metabolismo_1_C.svg)](https://commons.wikimedia.org/wiki/File:Metabolismo_1_C.svg)
 
 ## SAM y metilación: El modelo del ratón agutí: dieta y epigenética.
 
-El modelo del ratón agutí demuestra cómo la dieta y la nutrición pueden afectar el epigenoma.
+-   El modelo del ratón agutí demuestra cómo la dieta y la nutrición pueden afectar el epigenoma.
 
-El alelo amarillo viable agutí (A vy) se debe a la inserción de un retrotransposón, lo que resulta en un pelaje amarillo, obesidad y predisposición al cáncer.
+-   El alelo amarillo viable agutí (A^vy^) se debe a la inserción de un retrotransposón, lo que resulta en un pelaje amarillo, obesidad y predisposición al cáncer.
 
-La metilación del ADN en el retrotransposón controla la expresión del gen agutí.
+-   La metilación del ADN en el retrotransposón controla la expresión del gen agutí.
 
-La suplementación dietética materna con donantes de metilo como vitamina B12, ácidofólico, colina y betaína que aumentan la producción de SAM, aumenta la metilación en el retrotransposón, lo que resulta en un pelaje de color agutí de tipo silvestre en la descendencia.
+-   La suplementación dietética materna con donantes de metilo como vitamina B12, ácido fólico, colina y betaína que aumentan la producción de SAM, aumenta la metilación en el retrotransposón, lo que resulta en un pelaje de color agutí de tipo silvestre en la descendencia.
 
-[![[Ratones agutí viable amarillo (A^vy^).](https://pmc.ncbi.nlm.nih.gov/articles/PMC2822875/#:~:text=The%20viable%20yellow%20agouti%20(A,on%20the%20fetal%20epigenome%20(Fig.)](https://upload.wikimedia.org/wikipedia/commons/4/4d/Agouti_Mice.jpg)](https://commons.wikimedia.org/wiki/File:Agouti_Mice.jpg)
+[![Ratones agutí viable amarillo (A^vy^).(https://pmc.ncbi.nlm.nih.gov/articles/PMC2822875/#:\~:text=The%20viable%20yellow%20agouti%20(A,on%20the%20fetal%20epigenome%20(Fig.)](https://upload.wikimedia.org/wikipedia/commons/4/4d/Agouti_Mice.jpg)](https://commons.wikimedia.org/wiki/File:Agouti_Mice.jpg)
 
-### **FAD - Cofactor clave en epigenética**
+## **FAD - Cofactor clave en epigenética**
 
 -   Derivado de riboflavina (Vitamina B2)
 
@@ -257,17 +264,15 @@ La suplementación dietética materna con donantes de metilo como vitamina B12, 
 
     -   Riboflavina → FMN → FAD (requiere ATP)
 
-<!-- -->
-
 -   **Funciones:**
 
     -   Ciclo de Krebs (succinato deshidrogenasa)
 
     -   Cofactor de flavoenzimas (oxidación/reducción)
 
-![Síntesis de FAD a partir de riboflavina.](https://upload.wikimedia.org/wikipedia/commons/d/d7/FAD_Synthesis.png){alt="Síntesis de FAD a partir de riboflavina."}
+[![Síntesis de FAD a partir de riboflavina.](https://upload.wikimedia.org/wikipedia/commons/d/d7/FAD_Synthesis.png)](https://commons.wikimedia.org/wiki/File:FAD_Synthesis.png)
 
-### **FAD en el núcleo**
+## **FAD en el núcleo**
 
 -   **Enzimas nucleares:**
 
@@ -293,29 +298,27 @@ La suplementación dietética materna con donantes de metilo como vitamina B12, 
 
 [![Mecanismos de desmetilación de lisina.](https://upload.wikimedia.org/wikipedia/commons/d/d4/Lysine_demethylation.svg){width="100%"}](https://commons.wikimedia.org/wiki/File:Lysine_demethylation.svg)
 
-### **LSD1 en metabolismo y enfermedad**
+## **LSD1 en metabolismo y enfermedad**
 
 -   **Regulación metabólica:**
 
-    -   Reprime genes de gasto energético (ej. PGC1α)
+    -   Reprime genes de gasto energético (ej. desmetilación de PGC1α a través de la desmetilación H3K4)
 
-    -   ↑ LSD1 en adipocitos → ↑ actividad mitocondrial
+    -   PGC1α es un coactivador transcripcional que estimula la biogénesis mitocondrial
+
+    -   ↑ LSD1 en adipocitos → ↑ actividad mitocondrial y grasa parda
 
 -   **Implicaciones clínicas:**
 
     -   Inhibidores de LSD1 en ensayos para leucemia
-
-    -   Obesidad: LSD1 promueve "pardeamiento" adiposo
-
-### **FAD y homeostasis celular**
-
--   **Déficit de FAD → enfermedades neurológicas/cáncer**
 
 -   **Conexión metabolismo-epigenética:**
 
     -   Niveles de FAD regulan actividad de LSD1
 
     -   LSD1 vincula estado energético y expresión génica
+
+[![](https://upload.wikimedia.org/wikipedia/commons/3/3b/Lysine_demethylase_1_%28LSD1%29.svg)](https://commons.wikimedia.org/wiki/File:Lysine_demethylase_1_(LSD1).svg)
 
 ## **α-Cetoglutarato (αKG) y desmetilación**
 
@@ -331,11 +334,9 @@ La suplementación dietética materna con donantes de metilo como vitamina B12, 
 
 [![TET metil dioxigenasa.](https://upload.wikimedia.org/wikipedia/commons/5/55/Reaction_catalyzed_by_Tet_methylcytosine_dioxygenase_1_-_es.svg)](https://commons.wikimedia.org/wiki/File:Reaction_catalyzed_by_Tet_methylcytosine_dioxygenase_1_-_es.svg)
 
-[![(A) Actividad enzimática de la TET. Las proteínas TET, junto con los cofactores Fe₂+ y α-cetoglutarato (αKG), utilizan oxígeno para oxidar 5mC a 5hmC, generando CO₂ y succinato como subproductos. La actividad enzimática de la TET puede ser modulada por otros factores. Por ejemplo, la vitamina C (ascorbato) puede potenciar la actividad de la TET, posiblemente mediante la reducción del ion hierro. Por otro lado, el "oncometabolito" 2-hidroxiglutarato (2-HG), generado en la leucemia mieloide aguda y el glioblastoma por mutantes dominantes activos recurrentes de la isocitrato deshidrogenasa 1 o 2 (IDH1/2), inhibe la actividad de la TET. Además, la falta de oxígeno en hipoxia también inhibe la función de la TET. (\
-\
-B) Modelo de regulación potenciadora mediada por la TET. Antes de la activación de un potenciador, el factor de transcripción pionero (indicado como TF 1) se une al ADN nucleosómico y recluta TET, que oxida el 5mC circundante a 5hmC (y/u otros oxi-mC), lo que facilita la desmetilación del ADN. Las proteínas TET y TF 1 promueven la accesibilidad del potenciador mediante el reclutamiento de complejos de remodelación de nucleosomas, lo que permite la unión de factores de transcripción secundarios (indicados aquí como TF 2) que, de otro modo, se verían inhibidos por la metilación del ADN o la presencia de nucleosomas.](https://upload.wikimedia.org/wikipedia/commons/3/38/Gene_regulation_by_TET_proteins.png)](https://commons.wikimedia.org/wiki/File:Gene_regulation_by_TET_proteins.png)
+[![(A) Actividad enzimática de la TET. Las proteínas TET, junto con los cofactores Fe₂+ y α-cetoglutarato (αKG), utilizan oxígeno para oxidar 5mC a 5hmC, generando CO₂ y succinato como subproductos. La actividad enzimática de la TET puede ser modulada por otros factores. Por ejemplo, la vitamina C (ascorbato) puede potenciar la actividad de la TET, posiblemente mediante la reducción del ion hierro. Por otro lado, el "oncometabolito" 2-hidroxiglutarato (2-HG), generado en la leucemia mieloide aguda y el glioblastoma por mutantes dominantes activos recurrentes de la isocitrato deshidrogenasa 1 o 2 (IDH1/2), inhibe la actividad de la TET. Además, la falta de oxígeno en hipoxia también inhibe la función de la TET. ( B) Modelo de regulación potenciadora mediada por la TET. Antes de la activación de un potenciador, el factor de transcripción pionero (indicado como TF 1) se une al ADN nucleosómico y recluta TET, que oxida el 5mC circundante a 5hmC (y/u otros oxi-mC), lo que facilita la desmetilación del ADN. Las proteínas TET y TF 1 promueven la accesibilidad del potenciador mediante el reclutamiento de complejos de remodelación de nucleosomas, lo que permite la unión de factores de transcripción secundarios (indicados aquí como TF 2) que, de otro modo, se verían inhibidos por la metilación del ADN o la presencia de nucleosomas.](https://upload.wikimedia.org/wikipedia/commons/3/38/Gene_regulation_by_TET_proteins.png)](https://commons.wikimedia.org/wiki/File:Gene_regulation_by_TET_proteins.png)
 
-![Mecanismos de desmetilación de lisina.](https://upload.wikimedia.org/wikipedia/commons/d/d4/Lysine_demethylation.svg){alt="Mecanismos de desmetilación de lisina." width="100%"}
+![Mecanismos de desmetilación de lisina.](https://upload.wikimedia.org/wikipedia/commons/d/d4/Lysine_demethylation.svg){width="100%"}
 
 ## **α-Cetoglutarato (αKG) y desmetilación**
 
@@ -363,7 +364,7 @@ B) Modelo de regulación potenciadora mediada por la TET. Antes de la activació
 
 -   Los metabolitos actúan como cofactores para las enzimas modificadoras de la cromatina.
 
--    Los estímulos ambientales y fisiológicos pueden alterar las concentraciones de metabolitos, lo que a su vez puede afectar la expresión génica.
+-   Los estímulos ambientales y fisiológicos pueden alterar las concentraciones de metabolitos, lo que a su vez puede afectar la expresión génica.
 
 -   La biosíntesis de metabolitos localizada en la cromatina modula la expresión de genes cercanos al proporcionar cofactores para las enzimas epigenéticas.
 
